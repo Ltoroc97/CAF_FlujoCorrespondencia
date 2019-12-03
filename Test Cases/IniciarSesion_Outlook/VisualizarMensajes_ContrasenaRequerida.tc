@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VisualizarMensajes_ContrasenaRequerida</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bdd64b98-049d-4932-9117-05a03143f387</testCaseGuid>
+</TestCaseEntity>

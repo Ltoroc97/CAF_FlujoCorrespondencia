@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IngresarInformacion_Correo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b56d0825-dc44-4e09-90dc-56039e769827</testCaseGuid>
+   <variable>
+      <defaultValue>'lgarciaa@intergrupo.com'</defaultValue>
+      <description></description>
+      <id>d6bc806a-901b-46a6-8e15-3aa548317daa</id>
+      <masked>false</masked>
+      <name>Correo</name>
+   </variable>
+</TestCaseEntity>

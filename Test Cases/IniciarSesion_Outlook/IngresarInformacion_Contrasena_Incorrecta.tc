@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>IngresarInformacion_Contrasena_Incorrecta</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b0a072ec-55c2-4a94-bb32-5c3dcf9f4758</testCaseGuid>
+   <variable>
+      <defaultValue>'P/qUXqP4L2/a4ElOrtOGjQ=='</defaultValue>
+      <description></description>
+      <id>b2252c68-46cd-4a90-9113-470cf59fdc0a</id>
+      <masked>false</masked>
+      <name>ContrasenaIncorrecta</name>
+   </variable>
+</TestCaseEntity>
