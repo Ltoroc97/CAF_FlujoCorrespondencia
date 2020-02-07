@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('IniciarSesion_AplicacionCAF/IngresarPaginaPrincipal_CAF'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Eliminar Solicitud/td_20191058'))
+not_run: WebUI.click(findTestObject('Object Repository/Eliminar Solicitud/td_20191058'))
 
-WebUI.click(findTestObject('Object Repository/Eliminar Solicitud/a_20191058'))
+not_run: WebUI.click(findTestObject('Object Repository/Eliminar Solicitud/a_20191058'))
 

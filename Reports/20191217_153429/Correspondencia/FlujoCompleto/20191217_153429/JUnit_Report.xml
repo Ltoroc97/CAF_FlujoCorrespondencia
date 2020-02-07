@@ -1,0 +1,1410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FlujoCompleto" time="1093.971" tests="6" failures="1" errors="0">
+   <testsuite name="FlujoCompleto" tests="6" failures="1" errors="0" time="1093.971" timestamp="2019-12-17 15:34:32" hostname="Lgarciaa - P-Lgarciaa.intergrupo.com" id="Test Suites/Correspondencia/FlujoCompleto">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Proyectos\\CAF_FlujoCorrespondencia\\Reports\\20191217_153429\\Correspondencia\\FlujoCompleto\\20191217_153429"/>
+         <property name="logFiles" value="F:\\Proyectos\\CAF_FlujoCorrespondencia\\Reports\\20191217_153429\\Correspondencia\\FlujoCompleto\\20191217_153429\\execution0.log"/>
+         <property name="attachments" value="F:\\Proyectos\\CAF_FlujoCorrespondencia\\Reports\\20191217_153429\\Correspondencia\\FlujoCompleto\\20191217_153429\\1576615964580.png"/>
+         <property name="hostName" value="Lgarciaa - P-Lgarciaa.intergrupo.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.0.1"/>
+         <property name="browser" value="Chrome 79.0.3945.79"/>
+         <property name="hostAddress" value="10.60.6.13"/>
+         <property name="sessionId" value="256689731d4c21059824fa9636d80953"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Recepcion/Crear_Flujo" time="134.659" classname="Test Cases/Recepcion/Crear_Flujo" status="PASSED">
+         <system-out><![CDATA[2019-12-17 15:34:32 - [TEST_CASE][PASSED] - Test Cases/Recepcion/Crear_Flujo: Test Cases/Recepcion/Crear_Flujo
+
+2019-12-17 15:34:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("IniciarSesion_AplicacionCAF/IngresarPaginaPrincipal_CAF"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/IniciarSesion_AplicacionCAF/IngresarPaginaPrincipal_CAF' successfully
+
+2019-12-17 15:34:32 - [TEST_CASE][PASSED] - Test Cases/IniciarSesion_AplicacionCAF/IngresarPaginaPrincipal_CAF: Test Cases/IniciarSesion_AplicacionCAF/IngresarPaginaPrincipal_CAF
+
+2019-12-17 15:34:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-17 15:34:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-17 15:34:33 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-17 15:34:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-17 15:34:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-12-17 15:34:44 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-17 15:34:44 - [TEST_STEP][PASSED] - navigateToUrl("http://smdepbwsp02v:8004/sites/correspondencia/oecu/Lists/CSL_Correspondencia/AllItems.aspx"): Navigate to 'http://smdepbwsp02v:8004/sites/correspondencia/oecu/Lists/CSL_Correspondencia/AllItems.aspx' successfully
+
+2019-12-17 15:34:49 - [MESSAGE][PASSED] - Navigate to 'http://smdepbwsp02v:8004/sites/correspondencia/oecu/Lists/CSL_Correspondencia/AllItems.aspx' successfully
+
+2019-12-17 15:34:49 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2019-12-17 15:34:49 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2019-12-17 15:34:49 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2019-12-17 15:34:49 - [MESSAGE][INFO] - ===============================================================
+
+2019-12-17 15:34:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IniciarSesion_AplicacionCAF/IngresarPaginaPrincipal_CAF' successfully
+
+2019-12-17 15:34:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Recepcion/Boton Crear Nuevo Elemento")): Object: 'Object Repository/Recepcion/Boton Crear Nuevo Elemento' is clicked on
+
+2019-12-17 15:34:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Recepcion/Boton Crear Nuevo Elemento' is clicked on
+
+2019-12-17 15:34:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Procedencia_procedencia-input")): Object: 'Object Repository/Recepcion/Crear Flujo/input_Procedencia_procedencia-input' is clicked on
+
+2019-12-17 15:34:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Recepcion/Crear Flujo/input_Procedencia_procedencia-input' is clicked on
+
+2019-12-17 15:34:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Procedencia_procedencia-input"), "ECUADOR"): Text 'ECUADOR' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Procedencia_procedencia-input'
+
+2019-12-17 15:34:51 - [MESSAGE][PASSED] - Text 'ECUADOR' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Procedencia_procedencia-input'
+
+2019-12-17 15:34:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Tipo Documento_tipoDocumento-input"), "ORIGINAL"): Text 'ORIGINAL' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Tipo Documento_tipoDocumento-input'
+
+2019-12-17 15:34:52 - [MESSAGE][PASSED] - Text 'ORIGINAL' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Tipo Documento_tipoDocumento-input'
+
+2019-12-17 15:34:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Recepcion/Crear Flujo/i_")): Object: 'Object Repository/Recepcion/Crear Flujo/i_' is clicked on
+
+2019-12-17 15:34:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Recepcion/Crear Flujo/i_' is clicked on
+
+2019-12-17 15:34:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Recepcion/Crear Flujo/span_20")): Object: 'Object Repository/Recepcion/Crear Flujo/span_20' is clicked on
+
+2019-12-17 15:34:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Recepcion/Crear Flujo/span_20' is clicked on
+
+2019-12-17 15:34:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Nmero Oficio_numeroOficio"), "12"): Text '12' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Nmero Oficio_numeroOficio'
+
+2019-12-17 15:34:54 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Nmero Oficio_numeroOficio'
+
+2019-12-17 15:34:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Relacionado Con_relacionadoCon-input"), "CFA"): Text 'CFA' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Relacionado Con_relacionadoCon-input'
+
+2019-12-17 15:34:55 - [MESSAGE][PASSED] - Text 'CFA' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Relacionado Con_relacionadoCon-input'
+
+2019-12-17 15:34:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Nombre de Crdito_nombreCredito"), "PRUEBA"): Text 'PRUEBA' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Nombre de Crdito_nombreCredito'
+
+2019-12-17 15:34:56 - [MESSAGE][PASSED] - Text 'PRUEBA' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Nombre de Crdito_nombreCredito'
+
+2019-12-17 15:34:56 - [TEST_STEP][PASSED] - click(findTestObject("Recepcion/Crear Flujo/span_BANCO DE LA REPUBLICA")): Object: 'Object Repository/Recepcion/Crear Flujo/span_BANCO DE LA REPUBLICA' is clicked on
+
+2019-12-17 15:34:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Recepcion/Crear Flujo/span_BANCO DE LA REPUBLICA' is clicked on
+
+2019-12-17 15:34:57 - [TEST_STEP][PASSED] - click(findTestObject("Recepcion/Crear Flujo/input_Cargo del Remitente (1)_cargoRemitenteA")): Object: 'Object Repository/Recepcion/Crear Flujo/input_Cargo del Remitente (1)_cargoRemitenteA' is clicked on
+
+2019-12-17 15:34:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Recepcion/Crear Flujo/input_Cargo del Remitente (1)_cargoRemitenteA' is clicked on
+
+2019-12-17 15:34:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Nombre del Remitente (1)_nombreRemitenteA"), "Andres"): Text 'Andres' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Nombre del Remitente (1)_nombreRemitenteA'
+
+2019-12-17 15:34:58 - [MESSAGE][PASSED] - Text 'Andres' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Nombre del Remitente (1)_nombreRemitenteA'
+
+2019-12-17 15:34:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Cargo del Remitente (1)_cargoRemitenteA"), "DIRECTOR"): Text 'DIRECTOR' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Cargo del Remitente (1)_cargoRemitenteA'
+
+2019-12-17 15:34:59 - [MESSAGE][PASSED] - Text 'DIRECTOR' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Cargo del Remitente (1)_cargoRemitenteA'
+
+2019-12-17 15:34:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Nombre del Remitente (2)_nombreRemitenteB"), "DG"): Text 'DG' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Nombre del Remitente (2)_nombreRemitenteB'
+
+2019-12-17 15:34:59 - [MESSAGE][PASSED] - Text 'DG' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Nombre del Remitente (2)_nombreRemitenteB'
+
+2019-12-17 15:34:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Cargo del Remitente (2)_cargoRemitenteB"), "HOLA"): Text 'HOLA' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Cargo del Remitente (2)_cargoRemitenteB'
+
+2019-12-17 15:35:00 - [MESSAGE][PASSED] - Text 'HOLA' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Cargo del Remitente (2)_cargoRemitenteB'
+
+2019-12-17 15:35:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1"), "Laura Vanessa García Agudelo"): Text 'Laura Vanessa García Agudelo' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1'
+
+2019-12-17 15:35:47 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@value='L']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 15:35:47 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-17 15:35:47 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//input[@value='L']'.
+
+2019-12-17 15:35:48 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[@id='correspondencia-nuevo-cewp-container']/div/div/div[14]/div/div/div/div/input'.
+
+2019-12-17 15:35:48 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1_idRelative.png
+
+2019-12-17 15:35:49 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[14]/div/div/div/div/input'.
+
+2019-12-17 15:35:49 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1_position.png
+
+2019-12-17 15:35:49 - [MESSAGE][ERROR] - [SMART_XPATH] F:\Proyectos\CAF_FlujoCorrespondencia\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2019-12-17 15:35:49 - [MESSAGE][ERROR] - [SMART_XPATH] F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-17 15:35:49 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '//div[@id='correspondencia-nuevo-cewp-container']/div/div/div[14]/div/div/div/div/input'.
+
+2019-12-17 15:35:49 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-17 15:35:50 - [MESSAGE][PASSED] - Text 'Laura Vanessa García Agudelo' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1'
+
+2019-12-17 15:35:50 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1'
+
+2019-12-17 15:36:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@value='L']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 15:36:37 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-17 15:36:37 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//input[@value='L']'.
+
+2019-12-17 15:36:37 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[@id='correspondencia-nuevo-cewp-container']/div/div/div[14]/div/div/div/div/input'.
+
+2019-12-17 15:36:38 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1_idRelative.png
+
+2019-12-17 15:36:38 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[14]/div/div/div/div/input'.
+
+2019-12-17 15:36:38 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1_position.png
+
+2019-12-17 15:36:38 - [MESSAGE][ERROR] - [SMART_XPATH] F:\Proyectos\CAF_FlujoCorrespondencia\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2019-12-17 15:36:38 - [MESSAGE][ERROR] - [SMART_XPATH] F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-17 15:36:38 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '//div[@id='correspondencia-nuevo-cewp-container']/div/div/div[14]/div/div/div/div/input'.
+
+2019-12-17 15:36:38 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-17 15:36:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1'
+
+2019-12-17 15:36:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Recepcion/Crear Flujo/textarea_F"), "verificar campos"): Text 'verificar campos' is set on object 'Object Repository/Recepcion/Crear Flujo/textarea_F'
+
+2019-12-17 15:36:40 - [MESSAGE][PASSED] - Text 'verificar campos' is set on object 'Object Repository/Recepcion/Crear Flujo/textarea_F'
+
+2019-12-17 15:36:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Adjuntos_adjuntos-input"), "FACTURAS"): Text 'FACTURAS' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Adjuntos_adjuntos-input'
+
+2019-12-17 15:36:41 - [MESSAGE][PASSED] - Text 'FACTURAS' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Adjuntos_adjuntos-input'
+
+2019-12-17 15:36:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-12-17 15:36:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-12-17 15:36:46 - [TEST_STEP][PASSED] - click(findTestObject("Recepcion/Crear Flujo/div_Guardar")): Object: 'Object Repository/Recepcion/Crear Flujo/div_Guardar' is clicked on
+
+2019-12-17 15:36:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Recepcion/Crear Flujo/div_Guardar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Representante/ControlCorrespondencia" time="148.625" classname="Test Cases/Representante/ControlCorrespondencia" status="PASSED">
+         <system-out><![CDATA[2019-12-17 15:36:47 - [TEST_CASE][PASSED] - Test Cases/Representante/ControlCorrespondencia: Test Cases/Representante/ControlCorrespondencia
+
+2019-12-17 15:36:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Representante/SeleccionarCorreo_Integrado"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Representante/SeleccionarCorreo_Integrado' successfully
+
+2019-12-17 15:36:47 - [TEST_CASE][PASSED] - Test Cases/Representante/SeleccionarCorreo_Integrado: Test Cases/Representante/SeleccionarCorreo_Integrado
+
+2019-12-17 15:36:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Representante/InicioSesion_AccesoCorreo"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Representante/InicioSesion_AccesoCorreo' successfully
+
+2019-12-17 15:36:47 - [TEST_CASE][PASSED] - Test Cases/Representante/InicioSesion_AccesoCorreo: Test Cases/Representante/InicioSesion_AccesoCorreo
+
+2019-12-17 15:36:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-17 15:36:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-17 15:36:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-17 15:36:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-17 15:36:54 - [TEST_STEP][PASSED] - navigateToUrl("https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw"): Navigate to 'https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw' successfully
+
+2019-12-17 15:36:55 - [MESSAGE][PASSED] - Navigate to 'https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw' successfully
+
+2019-12-17 15:36:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Representante/input_to continue to Outlook_loginfmt"), "Lgarciaa@intergrupo.com"): Text 'Lgarciaa@intergrupo.com' is set on object 'Object Repository/Representante/input_to continue to Outlook_loginfmt'
+
+2019-12-17 15:36:57 - [MESSAGE][PASSED] - Text 'Lgarciaa@intergrupo.com' is set on object 'Object Repository/Representante/input_to continue to Outlook_loginfmt'
+
+2019-12-17 15:36:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_to continue to Outlook_idSIButton9")): Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:36:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:36:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Representante/input_Enter password_passwd"), "ZOlv4XWAQZkh7wlYSNhOVA=="): Text ****** has been set on object 'Object Repository/Representante/input_Enter password_passwd'
+
+2019-12-17 15:36:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Representante/input_Enter password_passwd'
+
+2019-12-17 15:36:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_to continue to Outlook_idSIButton9")): Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:37:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:37:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back")): Object: 'Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back' is clicked on
+
+2019-12-17 15:37:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back' is clicked on
+
+2019-12-17 15:37:12 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2019-12-17 15:37:16 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-17 15:37:16 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2019-12-17 15:37:16 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2019-12-17 15:37:16 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2019-12-17 15:37:16 - [MESSAGE][INFO] - ===============================================================
+
+2019-12-17 15:37:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Representante/InicioSesion_AccesoCorreo' successfully
+
+2019-12-17 15:37:16 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Representante/SeleccionarCorreo_EtapaRepresentante"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Representante/SeleccionarCorreo_EtapaRepresentante' successfully
+
+2019-12-17 15:37:16 - [TEST_CASE][PASSED] - Test Cases/Representante/SeleccionarCorreo_EtapaRepresentante: Test Cases/Representante/SeleccionarCorreo_EtapaRepresentante
+
+2019-12-17 15:37:16 - [TEST_STEP][PASSED] - click(findTestObject("Representante/span_20191061 PRUEBA - APROBACIN REPRESENTANTE")): Object: 'Object Repository/Representante/span_20191061 PRUEBA - APROBACIN REPRESENTANTE' is clicked on
+
+2019-12-17 15:38:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='AQAAAMjoylsBAAAAyVgUHQAAAAA=']/div/div/div/div[2]/div[2]/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 15:38:02 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-17 15:38:02 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//div[@id='AQAAAMjoylsBAAAAyVgUHQAAAAA=']/div/div/div/div[2]/div[2]/div/span'.
+
+2019-12-17 15:38:02 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='cafpruebassp@intergrupo.com'])[1]/following::span[5]'.
+
+2019-12-17 15:38:03 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Representante/span_20191061 PRUEBA - APROBACIN REPRESENTANTE_neighbor_2.png
+
+2019-12-17 15:38:03 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='C'])[1]/following::span[6]'.
+
+2019-12-17 15:38:04 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Representante/span_20191061 PRUEBA - APROBACIN REPRESENTANTE_neighbor_3.png
+
+2019-12-17 15:38:04 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='OE'])[1]/preceding::span[3]'.
+
+2019-12-17 15:38:05 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Representante/span_20191061 PRUEBA - APROBACIN REPRESENTANTE_neighbor_4.png
+
+2019-12-17 15:38:05 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Oficina Ecuador'])[1]/preceding::span[4]'.
+
+2019-12-17 15:38:05 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Representante/span_20191061 PRUEBA - APROBACIN REPRESENTANTE_neighbor_5.png
+
+2019-12-17 15:38:06 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//*/text()[normalize-space(.)='[20191061] PRUEBA - APROBACIÓN REPRESENTANTE']/parent::*'.
+
+2019-12-17 15:38:06 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Representante/span_20191061 PRUEBA - APROBACIN REPRESENTANTE_neighbor_6.png
+
+2019-12-17 15:38:07 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div/div[2]/div/div/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/span'.
+
+2019-12-17 15:38:08 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Representante/span_20191061 PRUEBA - APROBACIN REPRESENTANTE_position.png
+
+2019-12-17 15:38:08 - [MESSAGE][ERROR] - [SMART_XPATH] F:\Proyectos\CAF_FlujoCorrespondencia\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2019-12-17 15:38:08 - [MESSAGE][ERROR] - [SMART_XPATH] F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-17 15:38:08 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '(.//*[normalize-space(text()) and normalize-space(.)='cafpruebassp@intergrupo.com'])[1]/following::span[5]'.
+
+2019-12-17 15:38:08 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-17 15:38:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/span_20191061 PRUEBA - APROBACIN REPRESENTANTE' is clicked on
+
+2019-12-17 15:38:08 - [TEST_STEP][PASSED] - click(findTestObject("Representante/a_CORRESPONDENCIA")): Object: 'Object Repository/Representante/a_CORRESPONDENCIA' is clicked on
+
+2019-12-17 15:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/a_CORRESPONDENCIA' is clicked on
+
+2019-12-17 15:38:09 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2019-12-17 15:38:09 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2019-12-17 15:38:09 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2019-12-17 15:38:09 - [MESSAGE][INFO] - ===============================================================
+
+2019-12-17 15:38:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Representante/SeleccionarCorreo_EtapaRepresentante' successfully
+
+2019-12-17 15:38:09 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2019-12-17 15:38:09 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2019-12-17 15:38:09 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2019-12-17 15:38:09 - [MESSAGE][INFO] - ===============================================================
+
+2019-12-17 15:38:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Representante/SeleccionarCorreo_Integrado' successfully
+
+2019-12-17 15:38:09 - [TEST_STEP][PASSED] - switchToWindowTitle("Control Correspondencia - 20191061"): Switched to window with title: 'Control Correspondencia - 20191061'
+
+2019-12-17 15:38:13 - [MESSAGE][PASSED] - Switched to window with title: 'Control Correspondencia - 20191061'
+
+2019-12-17 15:38:13 - [TEST_STEP][PASSED] - click(findTestObject("Representante/ContinuarFlujo/i_")): Object: 'Object Repository/Representante/ContinuarFlujo/i_' is clicked on
+
+2019-12-17 15:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/ContinuarFlujo/i_' is clicked on
+
+2019-12-17 15:38:13 - [TEST_STEP][PASSED] - click(findTestObject("Representante/span_9")): Object: 'Object Repository/Representante/span_9' is clicked on
+
+2019-12-17 15:39:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='DatePickerDay-active34']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 15:39:00 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-17 15:39:01 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//button[@id='DatePickerDay-active34']/span'.
+
+2019-12-17 15:39:01 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='D'])[1]/following::span[15]'.
+
+2019-12-17 15:39:02 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Representante/span_9_neighbor_3.png
+
+2019-12-17 15:39:02 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='S'])[1]/following::span[15]'.
+
+2019-12-17 15:39:02 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Representante/span_9_neighbor_4.png
+
+2019-12-17 15:39:03 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Ir a hoy'])[1]/preceding::span[28]'.
+
+2019-12-17 15:39:03 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Representante/span_9_neighbor_5.png
+
+2019-12-17 15:39:03 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//*/text()[normalize-space(.)='9']/parent::*'.
+
+2019-12-17 15:39:04 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Representante/span_9_neighbor_6.png
+
+2019-12-17 15:39:04 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//tr[3]/td/button/span'.
+
+2019-12-17 15:39:05 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Representante/span_9_position.png
+
+2019-12-17 15:39:05 - [MESSAGE][ERROR] - [SMART_XPATH] F:\Proyectos\CAF_FlujoCorrespondencia\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2019-12-17 15:39:05 - [MESSAGE][ERROR] - [SMART_XPATH] F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-17 15:39:05 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '(.//*[normalize-space(text()) and normalize-space(.)='D'])[1]/following::span[15]'.
+
+2019-12-17 15:39:05 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-17 15:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/span_9' is clicked on
+
+2019-12-17 15:39:05 - [TEST_STEP][PASSED] - click(findTestObject("Representante/ContinuarFlujo/i__1")): Object: 'Object Repository/Representante/ContinuarFlujo/i__1' is clicked on
+
+2019-12-17 15:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/ContinuarFlujo/i__1' is clicked on
+
+2019-12-17 15:39:05 - [TEST_STEP][PASSED] - setText(findTestObject("Representante/ContinuarFlujo/input_Instrucciones_instrucciones-input"), "INFORMACIÓN "): Text 'INFORMACIÓN ' is set on object 'Object Repository/Representante/ContinuarFlujo/input_Instrucciones_instrucciones-input'
+
+2019-12-17 15:39:06 - [MESSAGE][PASSED] - Text 'INFORMACIÓN ' is set on object 'Object Repository/Representante/ContinuarFlujo/input_Instrucciones_instrucciones-input'
+
+2019-12-17 15:39:06 - [TEST_STEP][PASSED] - setText(findTestObject("Representante/ContinuarFlujo/textarea_V"), "Actualizar"): Text 'Actualizar' is set on object 'Object Repository/Representante/ContinuarFlujo/textarea_V'
+
+2019-12-17 15:39:07 - [MESSAGE][PASSED] - Text 'Actualizar' is set on object 'Object Repository/Representante/ContinuarFlujo/textarea_V'
+
+2019-12-17 15:39:07 - [TEST_STEP][PASSED] - click(findTestObject("Representante/ContinuarFlujo/button_Completar tarea de aprobacin_Toggle25")): Object: 'Object Repository/Representante/ContinuarFlujo/button_Completar tarea de aprobacin_Toggle25' is clicked on
+
+2019-12-17 15:39:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/ContinuarFlujo/button_Completar tarea de aprobacin_Toggle25' is clicked on
+
+2019-12-17 15:39:08 - [TEST_STEP][PASSED] - setText(findTestObject("Representante/ContinuarFlujo/input_Ejecutivo Responsable_ms-BasePicker-i_de3217"), "Laura Vanessa García Agudelo"): Text 'Laura Vanessa García Agudelo' is set on object 'Object Repository/Representante/ContinuarFlujo/input_Ejecutivo Responsable_ms-BasePicker-i_de3217'
+
+2019-12-17 15:39:09 - [MESSAGE][PASSED] - Text 'Laura Vanessa García Agudelo' is set on object 'Object Repository/Representante/ContinuarFlujo/input_Ejecutivo Responsable_ms-BasePicker-i_de3217'
+
+2019-12-17 15:39:09 - [TEST_STEP][PASSED] - click(findTestObject("Representante/ContinuarFlujo/div_Laura Vanessa Garca Agudelo")): Object: 'Object Repository/Representante/ContinuarFlujo/div_Laura Vanessa Garca Agudelo' is clicked on
+
+2019-12-17 15:39:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/ContinuarFlujo/div_Laura Vanessa Garca Agudelo' is clicked on
+
+2019-12-17 15:39:10 - [TEST_STEP][PASSED] - click(findTestObject("Representante/ContinuarFlujo/div_Correlativo20191058Duracin28 minuto(s)E_99e586")): Object: 'Object Repository/Representante/ContinuarFlujo/div_Correlativo20191058Duracin28 minuto(s)E_99e586' is clicked on
+
+2019-12-17 15:39:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/ContinuarFlujo/div_Correlativo20191058Duracin28 minuto(s)E_99e586' is clicked on
+
+2019-12-17 15:39:11 - [TEST_STEP][PASSED] - click(findTestObject("Representante/ContinuarFlujo/label_Aprobar")): Object: 'Object Repository/Representante/ContinuarFlujo/label_Aprobar' is clicked on
+
+2019-12-17 15:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/ContinuarFlujo/label_Aprobar' is clicked on
+
+2019-12-17 15:39:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-12-17 15:39:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-17 15:39:15 - [TEST_STEP][PASSED] - click(findTestObject("Representante/ContinuarFlujo/div_Guardar")): Object: 'Object Repository/Representante/ContinuarFlujo/div_Guardar' is clicked on
+
+2019-12-17 15:39:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/ContinuarFlujo/div_Guardar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ejecutivo_Responsable/Flujo_EjecutivoResponsable" time="193.82" classname="Test Cases/Ejecutivo_Responsable/Flujo_EjecutivoResponsable" status="PASSED">
+         <system-out><![CDATA[2019-12-17 15:39:15 - [TEST_CASE][PASSED] - Test Cases/Ejecutivo_Responsable/Flujo_EjecutivoResponsable: Test Cases/Ejecutivo_Responsable/Flujo_EjecutivoResponsable
+
+2019-12-17 15:39:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Representante/InicioSesion_AccesoCorreo"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Representante/InicioSesion_AccesoCorreo' successfully
+
+2019-12-17 15:39:15 - [TEST_CASE][PASSED] - Test Cases/Representante/InicioSesion_AccesoCorreo: Test Cases/Representante/InicioSesion_AccesoCorreo
+
+2019-12-17 15:39:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-17 15:39:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-17 15:39:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-17 15:39:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-17 15:39:22 - [TEST_STEP][PASSED] - navigateToUrl("https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw"): Navigate to 'https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw' successfully
+
+2019-12-17 15:39:23 - [MESSAGE][PASSED] - Navigate to 'https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw' successfully
+
+2019-12-17 15:39:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Representante/input_to continue to Outlook_loginfmt"), "Lgarciaa@intergrupo.com"): Text 'Lgarciaa@intergrupo.com' is set on object 'Object Repository/Representante/input_to continue to Outlook_loginfmt'
+
+2019-12-17 15:39:25 - [MESSAGE][PASSED] - Text 'Lgarciaa@intergrupo.com' is set on object 'Object Repository/Representante/input_to continue to Outlook_loginfmt'
+
+2019-12-17 15:39:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_to continue to Outlook_idSIButton9")): Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:39:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Representante/input_Enter password_passwd"), "ZOlv4XWAQZkh7wlYSNhOVA=="): Text ****** has been set on object 'Object Repository/Representante/input_Enter password_passwd'
+
+2019-12-17 15:39:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Representante/input_Enter password_passwd'
+
+2019-12-17 15:39:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_to continue to Outlook_idSIButton9")): Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:39:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:39:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back")): Object: 'Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back' is clicked on
+
+2019-12-17 15:39:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back' is clicked on
+
+2019-12-17 15:39:37 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2019-12-17 15:39:41 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-17 15:39:41 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2019-12-17 15:39:41 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2019-12-17 15:39:41 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2019-12-17 15:39:41 - [MESSAGE][INFO] - ===============================================================
+
+2019-12-17 15:39:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Representante/InicioSesion_AccesoCorreo' successfully
+
+2019-12-17 15:39:41 - [TEST_STEP][PASSED] - click(findTestObject("EjecutivoResponsable/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE")): Object: 'Object Repository/EjecutivoResponsable/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE' is clicked on
+
+2019-12-17 15:40:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='AQAAAMjoylsBAAAAyVgUHgAAAAA=']/div/div/div/div[2]/div[2]/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 15:40:28 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-17 15:40:28 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//div[@id='AQAAAMjoylsBAAAAyVgUHgAAAAA=']/div/div/div/div[2]/div[2]/div/span'.
+
+2019-12-17 15:40:29 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='cafpruebassp@intergrupo.com'])[1]/following::span[5]'.
+
+2019-12-17 15:40:29 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE_neighbor_4.png
+
+2019-12-17 15:40:29 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='C'])[1]/following::span[6]'.
+
+2019-12-17 15:40:30 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE_neighbor_5.png
+
+2019-12-17 15:40:30 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='C'])[2]/preceding::span[3]'.
+
+2019-12-17 15:40:31 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE_neighbor_6.png
+
+2019-12-17 15:40:31 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='cafpruebassp@intergrupo.com'])[2]/preceding::span[4]'.
+
+2019-12-17 15:40:32 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE_neighbor_7.png
+
+2019-12-17 15:40:32 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//*/text()[normalize-space(.)='[20191061] PRUEBA - APROBACIÓN EJECUTIVO RESPONSABLE']/parent::*'.
+
+2019-12-17 15:40:32 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE_neighbor_8.png
+
+2019-12-17 15:40:33 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div/div[2]/div/div/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/span'.
+
+2019-12-17 15:40:33 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE_position.png
+
+2019-12-17 15:40:33 - [MESSAGE][ERROR] - [SMART_XPATH] F:\Proyectos\CAF_FlujoCorrespondencia\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2019-12-17 15:40:33 - [MESSAGE][ERROR] - [SMART_XPATH] F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-17 15:40:33 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '(.//*[normalize-space(text()) and normalize-space(.)='cafpruebassp@intergrupo.com'])[1]/following::span[5]'.
+
+2019-12-17 15:40:33 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-17 15:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/EjecutivoResponsable/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE' is clicked on
+
+2019-12-17 15:40:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EjecutivoResponsable/a_CORRESPONDENCIA")): Object: 'Object Repository/EjecutivoResponsable/a_CORRESPONDENCIA' is clicked on
+
+2019-12-17 15:40:36 - [MESSAGE][PASSED] - Object: 'Object Repository/EjecutivoResponsable/a_CORRESPONDENCIA' is clicked on
+
+2019-12-17 15:40:36 - [TEST_STEP][PASSED] - switchToWindowTitle("Control Correspondencia - 20191061"): Switched to window with title: 'Control Correspondencia - 20191061'
+
+2019-12-17 15:40:40 - [MESSAGE][PASSED] - Switched to window with title: 'Control Correspondencia - 20191061'
+
+2019-12-17 15:40:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EjecutivoResponsable/div_sdfsfwewe"), "https://tasks.intergrupo.com/login_page.php?return=main_page.php"): Text 'https://tasks.intergrupo.com/login_page.php?return=main_page.php' is set on object 'Object Repository/EjecutivoResponsable/div_sdfsfwewe'
+
+2019-12-17 15:40:41 - [MESSAGE][PASSED] - Text 'https://tasks.intergrupo.com/login_page.php?return=main_page.php' is set on object 'Object Repository/EjecutivoResponsable/div_sdfsfwewe'
+
+2019-12-17 15:40:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/EjecutivoResponsable/input_Reasignado a_ms-BasePicker-input input-119"), "Laura Vanessa García Agudelo"): Text 'Laura Vanessa García Agudelo' is set on object 'Object Repository/EjecutivoResponsable/input_Reasignado a_ms-BasePicker-input input-119'
+
+2019-12-17 15:41:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//input[@value=''])[15]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 15:41:28 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-17 15:41:28 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '(//input[@value=''])[15]'.
+
+2019-12-17 15:41:29 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[@id='correspondencia-edicion-cewp-container']/div/div/div[25]/div/div/div/div/input'.
+
+2019-12-17 15:41:29 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:41:29 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[25]/div/div/div/div/input'.
+
+2019-12-17 15:41:30 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:41:30 - [MESSAGE][ERROR] - [SMART_XPATH] F:\Proyectos\CAF_FlujoCorrespondencia\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2019-12-17 15:41:30 - [MESSAGE][ERROR] - [SMART_XPATH] F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-17 15:41:30 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '//div[@id='correspondencia-edicion-cewp-container']/div/div/div[25]/div/div/div/div/input'.
+
+2019-12-17 15:41:30 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-17 15:41:30 - [MESSAGE][PASSED] - Text 'Laura Vanessa García Agudelo' is set on object 'Object Repository/EjecutivoResponsable/input_Reasignado a_ms-BasePicker-input input-119'
+
+2019-12-17 15:41:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EjecutivoResponsable/div_LLaura Vanessa Garca AgudeloLgarciaaint_951ad5")): Object: 'Object Repository/EjecutivoResponsable/div_LLaura Vanessa Garca AgudeloLgarciaaint_951ad5' is clicked on
+
+2019-12-17 15:41:32 - [MESSAGE][PASSED] - Object: 'Object Repository/EjecutivoResponsable/div_LLaura Vanessa Garca AgudeloLgarciaaint_951ad5' is clicked on
+
+2019-12-17 15:41:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EjecutivoResponsable/label_EVALUACIN CRITERIO TCNICO")): Object: 'Object Repository/EjecutivoResponsable/label_EVALUACIN CRITERIO TCNICO' is clicked on
+
+2019-12-17 15:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/EjecutivoResponsable/label_EVALUACIN CRITERIO TCNICO' is clicked on
+
+2019-12-17 15:41:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/EjecutivoResponsable/button_Completar tarea de aprobacin_Toggle22")): Object: 'Object Repository/EjecutivoResponsable/button_Completar tarea de aprobacin_Toggle22' is clicked on
+
+2019-12-17 15:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/EjecutivoResponsable/button_Completar tarea de aprobacin_Toggle22' is clicked on
+
+2019-12-17 15:41:33 - [TEST_STEP][PASSED] - click(findTestObject("EjecutivoResponsable/label_Aprobar")): Object: 'Object Repository/EjecutivoResponsable/label_Aprobar' is clicked on
+
+2019-12-17 15:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/EjecutivoResponsable/label_Aprobar' is clicked on
+
+2019-12-17 15:41:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-12-17 15:41:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-17 15:41:37 - [TEST_STEP][PASSED] - click(findTestObject("EjecutivoResponsable/div_Guardar")): Object: 'Object Repository/EjecutivoResponsable/div_Guardar' is clicked on
+
+2019-12-17 15:42:24 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='id__14']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 15:42:24 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-17 15:42:24 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//div[@id='id__14']'.
+
+2019-12-17 15:42:24 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[@id='correspondencia-edicion-cewp-container']/div/div/div[34]/button/div/div/div'.
+
+2019-12-17 15:42:25 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:42:25 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Devolver'])[1]/following::div[6]'.
+
+2019-12-17 15:42:26 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:42:26 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Aprobar'])[1]/following::div[8]'.
+
+2019-12-17 15:42:26 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:42:27 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Cancelar'])[1]/preceding::div[1]'.
+
+2019-12-17 15:42:27 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:42:27 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '"', 'id__14', '"', ')')])[1]/preceding::div[8]'.
+
+2019-12-17 15:42:28 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//*/text()[normalize-space(.)='Guardar']/parent::*'.
+
+2019-12-17 15:42:28 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:42:29 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//button/div/div/div'.
+
+2019-12-17 15:42:29 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:42:29 - [MESSAGE][ERROR] - [SMART_XPATH] F:\Proyectos\CAF_FlujoCorrespondencia\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2019-12-17 15:42:29 - [MESSAGE][ERROR] - [SMART_XPATH] F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-17 15:42:29 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '//div[@id='correspondencia-edicion-cewp-container']/div/div/div[34]/button/div/div/div'.
+
+2019-12-17 15:42:29 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-17 15:42:29 - [MESSAGE][PASSED] - Object: 'Object Repository/EjecutivoResponsable/div_Guardar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ejecutivo_Responsable/CriterioTecnico" time="194.718" classname="Test Cases/Ejecutivo_Responsable/CriterioTecnico" status="PASSED">
+         <system-out><![CDATA[2019-12-17 15:42:29 - [TEST_CASE][PASSED] - Test Cases/Ejecutivo_Responsable/CriterioTecnico: Test Cases/Ejecutivo_Responsable/CriterioTecnico
+
+2019-12-17 15:42:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Representante/InicioSesion_AccesoCorreo"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Representante/InicioSesion_AccesoCorreo' successfully
+
+2019-12-17 15:42:29 - [TEST_CASE][PASSED] - Test Cases/Representante/InicioSesion_AccesoCorreo: Test Cases/Representante/InicioSesion_AccesoCorreo
+
+2019-12-17 15:42:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-17 15:42:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-17 15:42:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-17 15:42:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-17 15:42:36 - [TEST_STEP][PASSED] - navigateToUrl("https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw"): Navigate to 'https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw' successfully
+
+2019-12-17 15:42:37 - [MESSAGE][PASSED] - Navigate to 'https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw' successfully
+
+2019-12-17 15:42:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Representante/input_to continue to Outlook_loginfmt"), "Lgarciaa@intergrupo.com"): Text 'Lgarciaa@intergrupo.com' is set on object 'Object Repository/Representante/input_to continue to Outlook_loginfmt'
+
+2019-12-17 15:42:39 - [MESSAGE][PASSED] - Text 'Lgarciaa@intergrupo.com' is set on object 'Object Repository/Representante/input_to continue to Outlook_loginfmt'
+
+2019-12-17 15:42:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_to continue to Outlook_idSIButton9")): Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:42:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:42:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Representante/input_Enter password_passwd"), "ZOlv4XWAQZkh7wlYSNhOVA=="): Text ****** has been set on object 'Object Repository/Representante/input_Enter password_passwd'
+
+2019-12-17 15:42:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Representante/input_Enter password_passwd'
+
+2019-12-17 15:42:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_to continue to Outlook_idSIButton9")): Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:42:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back")): Object: 'Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back' is clicked on
+
+2019-12-17 15:42:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back' is clicked on
+
+2019-12-17 15:42:54 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2019-12-17 15:42:58 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-17 15:42:58 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2019-12-17 15:42:58 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2019-12-17 15:42:58 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2019-12-17 15:42:58 - [MESSAGE][INFO] - ===============================================================
+
+2019-12-17 15:42:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Representante/InicioSesion_AccesoCorreo' successfully
+
+2019-12-17 15:42:58 - [TEST_STEP][PASSED] - click(findTestObject("CriterioTecnico/span_20191061 PRUEBA - APROBACIN CRITERIO TCNICO")): Object: 'Object Repository/CriterioTecnico/span_20191061 PRUEBA - APROBACIN CRITERIO TCNICO' is clicked on
+
+2019-12-17 15:43:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='AQAAAMjoylsBAAAAyVgUHwAAAAA=']/div/div/div/div[2]/div[2]/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 15:43:45 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-17 15:43:45 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//div[@id='AQAAAMjoylsBAAAAyVgUHwAAAAA=']/div/div/div/div[2]/div[2]/div/span'.
+
+2019-12-17 15:43:46 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='cafpruebassp@intergrupo.com'])[1]/following::span[5]'.
+
+2019-12-17 15:43:46 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/CriterioTecnico/span_20191061 PRUEBA - APROBACIN CRITERIO TCNICO_neighbor_7.png
+
+2019-12-17 15:43:46 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='C'])[1]/following::span[6]'.
+
+2019-12-17 15:43:47 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/CriterioTecnico/span_20191061 PRUEBA - APROBACIN CRITERIO TCNICO_neighbor_8.png
+
+2019-12-17 15:43:47 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='C'])[2]/preceding::span[3]'.
+
+2019-12-17 15:43:48 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/CriterioTecnico/span_20191061 PRUEBA - APROBACIN CRITERIO TCNICO_neighbor_9.png
+
+2019-12-17 15:43:48 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='cafpruebassp@intergrupo.com'])[2]/preceding::span[4]'.
+
+2019-12-17 15:43:49 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/CriterioTecnico/span_20191061 PRUEBA - APROBACIN CRITERIO TCNICO_neighbor_10.png
+
+2019-12-17 15:43:49 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//*/text()[normalize-space(.)='[20191061] PRUEBA - APROBACIÓN CRITERIO TÉCNICO']/parent::*'.
+
+2019-12-17 15:43:50 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div/div[2]/div/div/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/span'.
+
+2019-12-17 15:43:50 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/CriterioTecnico/span_20191061 PRUEBA - APROBACIN CRITERIO TCNICO_position.png
+
+2019-12-17 15:43:50 - [MESSAGE][ERROR] - [SMART_XPATH] F:\Proyectos\CAF_FlujoCorrespondencia\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2019-12-17 15:43:50 - [MESSAGE][ERROR] - [SMART_XPATH] F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-17 15:43:50 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '(.//*[normalize-space(text()) and normalize-space(.)='cafpruebassp@intergrupo.com'])[1]/following::span[5]'.
+
+2019-12-17 15:43:50 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-17 15:43:50 - [MESSAGE][PASSED] - Object: 'Object Repository/CriterioTecnico/span_20191061 PRUEBA - APROBACIN CRITERIO TCNICO' is clicked on
+
+2019-12-17 15:43:50 - [TEST_STEP][PASSED] - click(findTestObject("CriterioTecnico/a_CORRESPONDENCIA")): Object: 'Object Repository/CriterioTecnico/a_CORRESPONDENCIA' is clicked on
+
+2019-12-17 15:43:52 - [MESSAGE][PASSED] - Object: 'Object Repository/CriterioTecnico/a_CORRESPONDENCIA' is clicked on
+
+2019-12-17 15:43:52 - [TEST_STEP][PASSED] - switchToWindowTitle("Control Correspondencia - 20191061"): Switched to window with title: 'Control Correspondencia - 20191061'
+
+2019-12-17 15:43:56 - [MESSAGE][PASSED] - Switched to window with title: 'Control Correspondencia - 20191061'
+
+2019-12-17 15:43:56 - [TEST_STEP][PASSED] - click(findTestObject("CriterioTecnico/button_Completar tarea de aprobacin_Toggle25")): Object: 'Object Repository/CriterioTecnico/button_Completar tarea de aprobacin_Toggle25' is clicked on
+
+2019-12-17 15:44:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='Toggle25']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 15:44:43 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-17 15:44:43 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//button[@id='Toggle25']'.
+
+2019-12-17 15:44:44 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[@id='correspondencia-edicion-cewp-container']/div/div/div[31]/div[2]/div/button'.
+
+2019-12-17 15:44:44 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:44:45 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Completar tarea de aprobación'])[1]/following::button[1]'.
+
+2019-12-17 15:44:45 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:44:45 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='VER BITÁCORA'])[1]/following::button[1]'.
+
+2019-12-17 15:44:46 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:44:46 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::button[1]'.
+
+2019-12-17 15:44:46 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:44:47 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Guardar'])[1]/preceding::button[1]'.
+
+2019-12-17 15:44:47 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:44:48 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div/button'.
+
+2019-12-17 15:44:48 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:44:48 - [MESSAGE][ERROR] - [SMART_XPATH] F:\Proyectos\CAF_FlujoCorrespondencia\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2019-12-17 15:44:48 - [MESSAGE][ERROR] - [SMART_XPATH] F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-17 15:44:48 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '//div[@id='correspondencia-edicion-cewp-container']/div/div/div[31]/div[2]/div/button'.
+
+2019-12-17 15:44:48 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-17 15:44:48 - [MESSAGE][PASSED] - Object: 'Object Repository/CriterioTecnico/button_Completar tarea de aprobacin_Toggle25' is clicked on
+
+2019-12-17 15:44:48 - [TEST_STEP][PASSED] - click(findTestObject("CriterioTecnico/label_Aprobar")): Object: 'Object Repository/CriterioTecnico/label_Aprobar' is clicked on
+
+2019-12-17 15:44:49 - [MESSAGE][PASSED] - Object: 'Object Repository/CriterioTecnico/label_Aprobar' is clicked on
+
+2019-12-17 15:44:49 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-12-17 15:44:52 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-17 15:44:52 - [TEST_STEP][PASSED] - click(findTestObject("CriterioTecnico/div_Guardar")): Object: 'Object Repository/CriterioTecnico/div_Guardar' is clicked on
+
+2019-12-17 15:45:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='id__7']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 15:45:39 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-17 15:45:39 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//div[@id='id__7']'.
+
+2019-12-17 15:45:39 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[@id='correspondencia-edicion-cewp-container']/div/div/div[34]/button/div/div/div'.
+
+2019-12-17 15:45:40 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:45:40 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Devolver'])[1]/following::div[6]'.
+
+2019-12-17 15:45:40 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:45:41 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Aprobar'])[1]/following::div[8]'.
+
+2019-12-17 15:45:41 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:45:42 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Cancelar'])[1]/preceding::div[1]'.
+
+2019-12-17 15:45:42 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:45:42 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::div[8]'.
+
+2019-12-17 15:45:42 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//*/text()[normalize-space(.)='Guardar']/parent::*'.
+
+2019-12-17 15:45:43 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:45:43 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//button/div/div/div'.
+
+2019-12-17 15:45:44 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:45:44 - [MESSAGE][ERROR] - [SMART_XPATH] F:\Proyectos\CAF_FlujoCorrespondencia\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2019-12-17 15:45:44 - [MESSAGE][ERROR] - [SMART_XPATH] F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-17 15:45:44 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '//div[@id='correspondencia-edicion-cewp-container']/div/div/div[34]/button/div/div/div'.
+
+2019-12-17 15:45:44 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-17 15:45:44 - [MESSAGE][PASSED] - Object: 'Object Repository/CriterioTecnico/div_Guardar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ejecutivo_Responsable/EjecutivoResponsable2" time="234.246" classname="Test Cases/Ejecutivo_Responsable/EjecutivoResponsable2" status="PASSED">
+         <system-out><![CDATA[2019-12-17 15:45:44 - [TEST_CASE][PASSED] - Test Cases/Ejecutivo_Responsable/EjecutivoResponsable2: Test Cases/Ejecutivo_Responsable/EjecutivoResponsable2
+
+2019-12-17 15:45:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Representante/InicioSesion_AccesoCorreo"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Representante/InicioSesion_AccesoCorreo' successfully
+
+2019-12-17 15:45:44 - [TEST_CASE][PASSED] - Test Cases/Representante/InicioSesion_AccesoCorreo: Test Cases/Representante/InicioSesion_AccesoCorreo
+
+2019-12-17 15:45:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-17 15:45:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-17 15:45:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-17 15:45:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-17 15:45:51 - [TEST_STEP][PASSED] - navigateToUrl("https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw"): Navigate to 'https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw' successfully
+
+2019-12-17 15:45:52 - [MESSAGE][PASSED] - Navigate to 'https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw' successfully
+
+2019-12-17 15:45:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Representante/input_to continue to Outlook_loginfmt"), "Lgarciaa@intergrupo.com"): Text 'Lgarciaa@intergrupo.com' is set on object 'Object Repository/Representante/input_to continue to Outlook_loginfmt'
+
+2019-12-17 15:45:53 - [MESSAGE][PASSED] - Text 'Lgarciaa@intergrupo.com' is set on object 'Object Repository/Representante/input_to continue to Outlook_loginfmt'
+
+2019-12-17 15:45:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_to continue to Outlook_idSIButton9")): Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:45:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:45:53 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Representante/input_Enter password_passwd"), "ZOlv4XWAQZkh7wlYSNhOVA=="): Text ****** has been set on object 'Object Repository/Representante/input_Enter password_passwd'
+
+2019-12-17 15:45:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Representante/input_Enter password_passwd'
+
+2019-12-17 15:45:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_to continue to Outlook_idSIButton9")): Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:45:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back")): Object: 'Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back' is clicked on
+
+2019-12-17 15:46:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back' is clicked on
+
+2019-12-17 15:46:00 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2019-12-17 15:46:05 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-17 15:46:05 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2019-12-17 15:46:05 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2019-12-17 15:46:05 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2019-12-17 15:46:05 - [MESSAGE][INFO] - ===============================================================
+
+2019-12-17 15:46:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Representante/InicioSesion_AccesoCorreo' successfully
+
+2019-12-17 15:46:05 - [TEST_STEP][PASSED] - click(findTestObject("EjecutivoResponsable2/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE")): Object: 'Object Repository/EjecutivoResponsable2/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE' is clicked on
+
+2019-12-17 15:46:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='AQAAAMjoylsBAAAAyVgUHgAAAAA=']/div/div/div/div[2]/div[2]/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 15:46:48 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-17 15:46:48 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//div[@id='AQAAAMjoylsBAAAAyVgUHgAAAAA=']/div/div/div/div[2]/div[2]/div/span'.
+
+2019-12-17 15:46:49 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='cafpruebassp@intergrupo.com'])[1]/following::span[5]'.
+
+2019-12-17 15:46:49 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable2/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE_neighbor_10.png
+
+2019-12-17 15:46:49 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='C'])[1]/following::span[6]'.
+
+2019-12-17 15:46:50 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable2/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE_neighbor_11.png
+
+2019-12-17 15:46:50 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='C'])[2]/preceding::span[3]'.
+
+2019-12-17 15:46:50 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable2/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE_neighbor_12.png
+
+2019-12-17 15:46:51 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='cafpruebassp@intergrupo.com'])[2]/preceding::span[4]'.
+
+2019-12-17 15:46:51 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable2/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE_neighbor_13.png
+
+2019-12-17 15:46:52 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//*/text()[normalize-space(.)='[20191061] PRUEBA - APROBACIÓN EJECUTIVO RESPONSABLE']/parent::*'.
+
+2019-12-17 15:46:52 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable2/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE_neighbor_14.png
+
+2019-12-17 15:46:52 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div/div[2]/div/div/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/span'.
+
+2019-12-17 15:46:53 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable2/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE_position.png
+
+2019-12-17 15:46:53 - [MESSAGE][ERROR] - [SMART_XPATH] F:\Proyectos\CAF_FlujoCorrespondencia\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2019-12-17 15:46:53 - [MESSAGE][ERROR] - [SMART_XPATH] F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-17 15:46:53 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '(.//*[normalize-space(text()) and normalize-space(.)='cafpruebassp@intergrupo.com'])[1]/following::span[5]'.
+
+2019-12-17 15:46:53 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-17 15:46:53 - [MESSAGE][PASSED] - Object: 'Object Repository/EjecutivoResponsable2/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE' is clicked on
+
+2019-12-17 15:46:53 - [TEST_STEP][PASSED] - click(findTestObject("EjecutivoResponsable2/a_CORRESPONDENCIA")): Object: 'Object Repository/EjecutivoResponsable2/a_CORRESPONDENCIA' is clicked on
+
+2019-12-17 15:47:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='app']/div/div[2]/div/div/div[3]/div[2]/div/div[3]/div/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div/div/table/tbody/tr[3]/td/ol/li/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 15:47:41 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-17 15:47:41 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//div[@id='app']/div/div[2]/div/div/div[3]/div[2]/div/div[3]/div/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div/div/table/tbody/tr[3]/td/ol/li/a'.
+
+2019-12-17 15:47:41 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//a[contains(text(),'CORRESPONDENCIA')]'.
+
+2019-12-17 15:47:42 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:47:42 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='REGISTRE LOS CAMPOS REQUERIDOS DEL FORMULARIO.'])[1]/preceding::a[1]'.
+
+2019-12-17 15:47:43 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:47:43 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='REGISTRE LOS CAMPOS DE LA TAREA ASIGNADA PARA MARCAR LA TAREA COMO COMPLETADA.'])[1]/preceding::a[1]'.
+
+2019-12-17 15:47:43 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:47:44 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//*/text()[normalize-space(.)='CORRESPONDENCIA']/parent::*'.
+
+2019-12-17 15:47:44 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:47:45 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//a[@href='http://smdepbwsp02v:8004/sites/correspondencia/oecu/Lists/CSL_Correspondencia/EditForm.aspx?ID=153']'.
+
+2019-12-17 15:47:45 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//li/a'.
+
+2019-12-17 15:47:45 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 15:47:45 - [MESSAGE][ERROR] - [SMART_XPATH] F:\Proyectos\CAF_FlujoCorrespondencia\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2019-12-17 15:47:45 - [MESSAGE][ERROR] - [SMART_XPATH] F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-17 15:47:45 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '//a[contains(text(),'CORRESPONDENCIA')]'.
+
+2019-12-17 15:47:45 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-17 15:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/EjecutivoResponsable2/a_CORRESPONDENCIA' is clicked on
+
+2019-12-17 15:47:45 - [TEST_STEP][PASSED] - switchToWindowTitle("Control Correspondencia - 20191061"): Switched to window with title: 'Control Correspondencia - 20191061'
+
+2019-12-17 15:47:50 - [MESSAGE][PASSED] - Switched to window with title: 'Control Correspondencia - 20191061'
+
+2019-12-17 15:47:50 - [TEST_STEP][PASSED] - setText(findTestObject("EjecutivoResponsable2/div_httpstasksintergrupocomlogin_pagephpreturnmain_pagephp"), "link portal"): Text 'link portal' is set on object 'Object Repository/EjecutivoResponsable2/div_httpstasksintergrupocomlogin_pagephpreturnmain_pagephp'
+
+2019-12-17 15:47:50 - [MESSAGE][PASSED] - Text 'link portal' is set on object 'Object Repository/EjecutivoResponsable2/div_httpstasksintergrupocomlogin_pagephpreturnmain_pagephp'
+
+2019-12-17 15:47:50 - [TEST_STEP][PASSED] - click(findTestObject("EjecutivoResponsable2/label_GESTIN ADMINISTRATIVA")): Object: 'Object Repository/EjecutivoResponsable2/label_GESTIN ADMINISTRATIVA' is clicked on
+
+2019-12-17 15:48:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='correspondencia-edicion-cewp-container']/div/div/div[26]/div/div/div/div[2]/div/label'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 15:48:37 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-17 15:48:37 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//div[@id='correspondencia-edicion-cewp-container']/div/div/div[26]/div/div/div/div[2]/div/label'.
+
+2019-12-17 15:48:38 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='EVALUACIÓN CRITERIO TÉCNICO'])[1]/following::label[1]'.
+
+2019-12-17 15:48:38 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable2/label_GESTIN ADMINISTRATIVA_neighbor_12.png
+
+2019-12-17 15:48:38 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Reasignación EJ'])[1]/following::label[2]'.
+
+2019-12-17 15:48:39 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable2/label_GESTIN ADMINISTRATIVA_neighbor_13.png
+
+2019-12-17 15:48:39 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Trámite Interno'])[1]/preceding::label[1]'.
+
+2019-12-17 15:48:40 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable2/label_GESTIN ADMINISTRATIVA_neighbor_14.png
+
+2019-12-17 15:48:40 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[2]/div/label'.
+
+2019-12-17 15:48:40 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable2/label_GESTIN ADMINISTRATIVA_position.png
+
+2019-12-17 15:48:40 - [MESSAGE][ERROR] - [SMART_XPATH] F:\Proyectos\CAF_FlujoCorrespondencia\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2019-12-17 15:48:40 - [MESSAGE][ERROR] - [SMART_XPATH] F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-17 15:48:40 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '(.//*[normalize-space(text()) and normalize-space(.)='EVALUACIÓN CRITERIO TÉCNICO'])[1]/following::label[1]'.
+
+2019-12-17 15:48:40 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-17 15:48:41 - [MESSAGE][PASSED] - Object: 'Object Repository/EjecutivoResponsable2/label_GESTIN ADMINISTRATIVA' is clicked on
+
+2019-12-17 15:48:41 - [TEST_STEP][PASSED] - click(findTestObject("EjecutivoResponsable2/button_Completar tarea de aprobacin_Toggle35")): Object: 'Object Repository/EjecutivoResponsable2/button_Completar tarea de aprobacin_Toggle35' is clicked on
+
+2019-12-17 15:49:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='Toggle35']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 15:49:27 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-17 15:49:28 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//button[@id='Toggle35']'.
+
+2019-12-17 15:49:28 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[@id='correspondencia-edicion-cewp-container']/div/div/div[31]/div[2]/div/button'.
+
+2019-12-17 15:49:28 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable2/button_Completar tarea de aprobacin_Toggle35_idRelative.png
+
+2019-12-17 15:49:29 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Completar tarea de aprobación'])[1]/following::button[1]'.
+
+2019-12-17 15:49:29 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable2/button_Completar tarea de aprobacin_Toggle35_neighbor_13.png
+
+2019-12-17 15:49:29 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='VER BITÁCORA'])[1]/following::button[1]'.
+
+2019-12-17 15:49:30 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable2/button_Completar tarea de aprobacin_Toggle35_neighbor_14.png
+
+2019-12-17 15:49:30 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::button[1]'.
+
+2019-12-17 15:49:30 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable2/button_Completar tarea de aprobacin_Toggle35_neighbor_15.png
+
+2019-12-17 15:49:31 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Guardar'])[1]/preceding::button[1]'.
+
+2019-12-17 15:49:31 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable2/button_Completar tarea de aprobacin_Toggle35_neighbor_16.png
+
+2019-12-17 15:49:32 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[2]/div/button'.
+
+2019-12-17 15:49:32 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable2/button_Completar tarea de aprobacin_Toggle35_position.png
+
+2019-12-17 15:49:32 - [MESSAGE][ERROR] - [SMART_XPATH] F:\Proyectos\CAF_FlujoCorrespondencia\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2019-12-17 15:49:32 - [MESSAGE][ERROR] - [SMART_XPATH] F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-17 15:49:32 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '//div[@id='correspondencia-edicion-cewp-container']/div/div/div[31]/div[2]/div/button'.
+
+2019-12-17 15:49:32 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-17 15:49:32 - [MESSAGE][PASSED] - Object: 'Object Repository/EjecutivoResponsable2/button_Completar tarea de aprobacin_Toggle35' is clicked on
+
+2019-12-17 15:49:32 - [TEST_STEP][PASSED] - click(findTestObject("EjecutivoResponsable2/label_Aprobar")): Object: 'Object Repository/EjecutivoResponsable2/label_Aprobar' is clicked on
+
+2019-12-17 15:49:33 - [MESSAGE][PASSED] - Object: 'Object Repository/EjecutivoResponsable2/label_Aprobar' is clicked on
+
+2019-12-17 15:49:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-12-17 15:49:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-17 15:49:36 - [TEST_STEP][PASSED] - click(findTestObject("EjecutivoResponsable2/div_Guardar")): Object: 'Object Repository/EjecutivoResponsable2/div_Guardar' is clicked on
+
+2019-12-17 15:49:38 - [MESSAGE][PASSED] - Object: 'Object Repository/EjecutivoResponsable2/div_Guardar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GestionAdministrativa/FinalizarCiclo" time="186.548" classname="Test Cases/GestionAdministrativa/FinalizarCiclo" status="FAILED">
+         <failure type="FAILED" message="Test Cases/GestionAdministrativa/FinalizarCiclo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ARCHIVO' of object 'Object Repository/Gestion Administrativa/input_Trmite Interno_tramiteInterno-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at FinalizarCiclo.run(FinalizarCiclo:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576614869133.run(TempTestSuite1576614869133.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Gestion Administrativa/input_Trmite Interno_tramiteInterno-input' located by 'By.xpath: //input[@id='tramiteInterno-input']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-12-17 15:49:38 - [TEST_CASE][FAILED] - Test Cases/GestionAdministrativa/FinalizarCiclo: Test Cases/GestionAdministrativa/FinalizarCiclo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ARCHIVO' of object 'Object Repository/Gestion Administrativa/input_Trmite Interno_tramiteInterno-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at FinalizarCiclo.run(FinalizarCiclo:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576614869133.run(TempTestSuite1576614869133.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Gestion Administrativa/input_Trmite Interno_tramiteInterno-input' located by 'By.xpath: //input[@id='tramiteInterno-input']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-12-17 15:49:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Representante/InicioSesion_AccesoCorreo"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Representante/InicioSesion_AccesoCorreo' successfully
+
+2019-12-17 15:49:38 - [TEST_CASE][PASSED] - Test Cases/Representante/InicioSesion_AccesoCorreo: Test Cases/Representante/InicioSesion_AccesoCorreo
+
+2019-12-17 15:49:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-17 15:49:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-17 15:49:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-17 15:49:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-17 15:49:45 - [TEST_STEP][PASSED] - navigateToUrl("https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw"): Navigate to 'https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw' successfully
+
+2019-12-17 15:49:46 - [MESSAGE][PASSED] - Navigate to 'https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw' successfully
+
+2019-12-17 15:49:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Representante/input_to continue to Outlook_loginfmt"), "Lgarciaa@intergrupo.com"): Text 'Lgarciaa@intergrupo.com' is set on object 'Object Repository/Representante/input_to continue to Outlook_loginfmt'
+
+2019-12-17 15:49:47 - [MESSAGE][PASSED] - Text 'Lgarciaa@intergrupo.com' is set on object 'Object Repository/Representante/input_to continue to Outlook_loginfmt'
+
+2019-12-17 15:49:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_to continue to Outlook_idSIButton9")): Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:49:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:49:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Representante/input_Enter password_passwd"), "ZOlv4XWAQZkh7wlYSNhOVA=="): Text ****** has been set on object 'Object Repository/Representante/input_Enter password_passwd'
+
+2019-12-17 15:49:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Representante/input_Enter password_passwd'
+
+2019-12-17 15:49:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_to continue to Outlook_idSIButton9")): Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:49:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:49:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back")): Object: 'Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back' is clicked on
+
+2019-12-17 15:50:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back' is clicked on
+
+2019-12-17 15:50:02 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2019-12-17 15:50:06 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-17 15:50:06 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2019-12-17 15:50:06 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2019-12-17 15:50:06 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2019-12-17 15:50:06 - [MESSAGE][INFO] - ===============================================================
+
+2019-12-17 15:50:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Representante/InicioSesion_AccesoCorreo' successfully
+
+2019-12-17 15:50:06 - [TEST_STEP][PASSED] - click(findTestObject("Gestion Administrativa/span_20191061 PRUEBA - APROBACIN GESTIN ADMINISTRATIVA")): Object: 'Object Repository/Gestion Administrativa/span_20191061 PRUEBA - APROBACIN GESTIN ADMINISTRATIVA' is clicked on
+
+2019-12-17 15:50:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='AQAAAMjoylsBAAAAyVgUIQAAAAA=']/div/div/div/div[2]/div[2]/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 15:50:53 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-17 15:50:53 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//div[@id='AQAAAMjoylsBAAAAyVgUIQAAAAA=']/div/div/div/div[2]/div[2]/div/span'.
+
+2019-12-17 15:50:54 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='cafpruebassp@intergrupo.com'])[1]/following::span[5]'.
+
+2019-12-17 15:50:54 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Gestion Administrativa/span_20191061 PRUEBA - APROBACIN GESTIN ADMINISTRATIVA_neighbor_14.png
+
+2019-12-17 15:50:55 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='C'])[1]/following::span[6]'.
+
+2019-12-17 15:50:56 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Gestion Administrativa/span_20191061 PRUEBA - APROBACIN GESTIN ADMINISTRATIVA_neighbor_15.png
+
+2019-12-17 15:50:56 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='C'])[2]/preceding::span[3]'.
+
+2019-12-17 15:50:57 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Gestion Administrativa/span_20191061 PRUEBA - APROBACIN GESTIN ADMINISTRATIVA_neighbor_16.png
+
+2019-12-17 15:50:57 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='cafpruebassp@intergrupo.com'])[2]/preceding::span[4]'.
+
+2019-12-17 15:50:59 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Gestion Administrativa/span_20191061 PRUEBA - APROBACIN GESTIN ADMINISTRATIVA_neighbor_17.png
+
+2019-12-17 15:50:59 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//*/text()[normalize-space(.)='[20191061] PRUEBA - APROBACIÓN GESTIÓN ADMINISTRATIVA']/parent::*'.
+
+2019-12-17 15:50:59 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Gestion Administrativa/span_20191061 PRUEBA - APROBACIN GESTIN ADMINISTRATIVA_neighbor_18.png
+
+2019-12-17 15:51:00 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div/div[2]/div/div/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/span'.
+
+2019-12-17 15:51:01 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Gestion Administrativa/span_20191061 PRUEBA - APROBACIN GESTIN ADMINISTRATIVA_position.png
+
+2019-12-17 15:51:01 - [MESSAGE][ERROR] - [SMART_XPATH] F:\Proyectos\CAF_FlujoCorrespondencia\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2019-12-17 15:51:01 - [MESSAGE][ERROR] - [SMART_XPATH] F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-17 15:51:01 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '(.//*[normalize-space(text()) and normalize-space(.)='cafpruebassp@intergrupo.com'])[1]/following::span[5]'.
+
+2019-12-17 15:51:01 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-17 15:51:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Gestion Administrativa/span_20191061 PRUEBA - APROBACIN GESTIN ADMINISTRATIVA' is clicked on
+
+2019-12-17 15:51:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gestion Administrativa/a_CORRESPONDENCIA")): Object: 'Object Repository/Gestion Administrativa/a_CORRESPONDENCIA' is clicked on
+
+2019-12-17 15:51:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Gestion Administrativa/a_CORRESPONDENCIA' is clicked on
+
+2019-12-17 15:51:02 - [TEST_STEP][PASSED] - switchToWindowTitle("Control Correspondencia - 20191061"): Switched to window with title: 'Control Correspondencia - 20191061'
+
+2019-12-17 15:51:06 - [MESSAGE][PASSED] - Switched to window with title: 'Control Correspondencia - 20191061'
+
+2019-12-17 15:51:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gestion Administrativa/i_")): Object: 'Object Repository/Gestion Administrativa/i_' is clicked on
+
+2019-12-17 15:51:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='tramiteInternowrapper']/button/div/i'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 15:51:53 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-17 15:51:53 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//div[@id='tramiteInternowrapper']/button/div/i'.
+
+2019-12-17 15:51:54 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Trámite Interno'])[1]/following::i[1]'.
+
+2019-12-17 15:51:54 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Gestion Administrativa/i__neighbor_15.png
+
+2019-12-17 15:51:55 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='GESTIÓN ADMINISTRATIVA'])[1]/following::i[1]'.
+
+2019-12-17 15:51:55 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Archivado en'])[1]/preceding::i[1]'.
+
+2019-12-17 15:51:55 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Favor indicar con exactitud la ubicación del documento en carpeta del cliente'])[1]/preceding::i[2]'.
+
+2019-12-17 15:51:56 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//*/text()[normalize-space(.)='']/parent::*'.
+
+2019-12-17 15:51:56 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//i'.
+
+2019-12-17 15:51:56 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Gestion Administrativa/i__position.png
+
+2019-12-17 15:51:56 - [MESSAGE][ERROR] - [SMART_XPATH] F:\Proyectos\CAF_FlujoCorrespondencia\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2019-12-17 15:51:56 - [MESSAGE][ERROR] - [SMART_XPATH] F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-17 15:51:56 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '(.//*[normalize-space(text()) and normalize-space(.)='Trámite Interno'])[1]/following::i[1]'.
+
+2019-12-17 15:51:56 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-17 15:51:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Gestion Administrativa/i_' is clicked on
+
+2019-12-17 15:51:56 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Gestion Administrativa/input_Trmite Interno_tramiteInterno-input"), "ARCHIVO"): Unable to set text 'ARCHIVO' of object 'Object Repository/Gestion Administrativa/input_Trmite Interno_tramiteInterno-input' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ARCHIVO' of object 'Object Repository/Gestion Administrativa/input_Trmite Interno_tramiteInterno-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at FinalizarCiclo.run(FinalizarCiclo:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576614869133.run(TempTestSuite1576614869133.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Gestion Administrativa/input_Trmite Interno_tramiteInterno-input' located by 'By.xpath: //input[@id='tramiteInterno-input']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1575391245382.run(Script1575391245382.groovy:29)
+	... 13 more
+)
+
+2019-12-17 15:52:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='tramiteInterno-input']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 15:52:43 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-17 15:52:43 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//input[@id='tramiteInterno-input']'.
+
+2019-12-17 15:52:44 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//div[@id='tramiteInternowrapper']/input'.
+
+2019-12-17 15:52:44 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//div[27]/div/div/input'.
+
+2019-12-17 15:52:44 - [MESSAGE][INFO] - [SMART_XPATH] No working XPath is found.
+
+2019-12-17 15:52:45 - [MESSAGE][FAILED] - Unable to set text 'ARCHIVO' of object 'Object Repository/Gestion Administrativa/input_Trmite Interno_tramiteInterno-input' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ARCHIVO' of object 'Object Repository/Gestion Administrativa/input_Trmite Interno_tramiteInterno-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at FinalizarCiclo.run(FinalizarCiclo:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576614869133.run(TempTestSuite1576614869133.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Gestion Administrativa/input_Trmite Interno_tramiteInterno-input' located by 'By.xpath: //input[@id='tramiteInterno-input']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at Script1575391245382.run(Script1575391245382.groovy:29)
+	... 13 more
+)
+[[ATTACHMENT|F:\\Proyectos\\CAF_FlujoCorrespondencia\\Reports\\20191217_153429\\Correspondencia\\FlujoCompleto\\20191217_153429\\1576615964580.png]]]]></system-out>
+         <system-err><![CDATA[2019-12-17 15:49:38 - [TEST_CASE][FAILED] - Test Cases/GestionAdministrativa/FinalizarCiclo: Test Cases/GestionAdministrativa/FinalizarCiclo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ARCHIVO' of object 'Object Repository/Gestion Administrativa/input_Trmite Interno_tramiteInterno-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at FinalizarCiclo.run(FinalizarCiclo:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576614869133.run(TempTestSuite1576614869133.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Gestion Administrativa/input_Trmite Interno_tramiteInterno-input' located by 'By.xpath: //input[@id='tramiteInterno-input']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-17 15:34:32 - [TEST_SUITE][FAILED] - FlujoCompleto: Test Cases/GestionAdministrativa/FinalizarCiclo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ARCHIVO' of object 'Object Repository/Gestion Administrativa/input_Trmite Interno_tramiteInterno-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at FinalizarCiclo.run(FinalizarCiclo:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576614869133.run(TempTestSuite1576614869133.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Gestion Administrativa/input_Trmite Interno_tramiteInterno-input' located by 'By.xpath: //input[@id='tramiteInterno-input']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2019-12-17 15:34:32 - [TEST_SUITE][FAILED] - FlujoCompleto: Test Cases/GestionAdministrativa/FinalizarCiclo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'ARCHIVO' of object 'Object Repository/Gestion Administrativa/input_Trmite Interno_tramiteInterno-input'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$3.call(Unknown Source)
+	at FinalizarCiclo.run(FinalizarCiclo:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576614869133.run(TempTestSuite1576614869133.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Gestion Administrativa/input_Trmite Interno_tramiteInterno-input' located by 'By.xpath: //input[@id='tramiteInterno-input']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:51)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

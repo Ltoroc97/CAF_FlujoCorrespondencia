@@ -18,9 +18,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://smdepbwsp02v:8004/sites/correspondencia/oecu/Lists/CSL_Correspondencia/DispForm.aspx?ID=156&Source=http%3A%2F%2Fsmdepbwsp02v%3A8004%2Fsites%2Fcorrespondencia%2Foecu%2FLists%2FCSL%5FCorrespondencia%2FAllItems%2Easpx&ContentTypeId=0x0100E245C67AF7604E68B58DA3883D24394D007C8938C3BCEA1B4DAE0EBAF3E97EC954')
+WebUI.navigateToUrl('http://smdepbwsp02v:8004/sites/correspondencia/oecu/Lists/CSL_Correspondencia/DispForm.aspx?ID=160&Source=http%3A%2F%2Fsmdepbwsp02v%3A8004%2Fsites%2Fcorrespondencia%2Foecu%2FLists%2FCSL%5FCorrespondencia%2FAllItems%2Easpx&ContentTypeId=0x0100E245C67AF7604E68B58DA3883D24394D007C8938C3BCEA1B4DAE0EBAF3E97EC954')
 
-WebUI.click(findTestObject('Object Repository/Eliminar Solicitud/span_Eliminar elemento'))
+WebUI.click(findTestObject('Eliminar Solicitud/span_Eliminar elemento'))
 
 WebUI.acceptAlert()
 

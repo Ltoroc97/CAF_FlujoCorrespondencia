@@ -16,7 +16,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Representante/span_20191058 PRUEBA - APROBACIN REPRESENTANTE'))
+WebUI.click(findTestObject('Representante/ContinuarFlujo/span_20200002 PRUEBA - APROBACIN REPRESENTANTE'))
 
 WebUI.click(findTestObject('Representante/a_CORRESPONDENCIA'))
 

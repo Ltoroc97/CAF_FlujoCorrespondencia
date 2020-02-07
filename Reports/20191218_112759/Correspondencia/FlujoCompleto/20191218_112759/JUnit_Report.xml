@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FlujoCompleto" time="123.635" tests="1" failures="1" errors="0">
+   <testsuite name="FlujoCompleto" tests="1" failures="1" errors="0" time="123.635" timestamp="2019-12-18 11:28:01" hostname="Lgarciaa - P-Lgarciaa.intergrupo.com" id="Test Suites/Correspondencia/FlujoCompleto">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Proyectos\\CAF_FlujoCorrespondencia\\Reports\\20191218_112759\\Correspondencia\\FlujoCompleto\\20191218_112759"/>
+         <property name="logFiles" value="F:\\Proyectos\\CAF_FlujoCorrespondencia\\Reports\\20191218_112759\\Correspondencia\\FlujoCompleto\\20191218_112759\\execution0.log"/>
+         <property name="attachments" value="F:\\Proyectos\\CAF_FlujoCorrespondencia\\Reports\\20191218_112759\\Correspondencia\\FlujoCompleto\\20191218_112759\\1576686604005.png"/>
+         <property name="hostName" value="Lgarciaa - P-Lgarciaa.intergrupo.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.0.1"/>
+         <property name="browser" value="Chrome 79.0.3945.88"/>
+         <property name="hostAddress" value="10.60.6.13"/>
+         <property name="sessionId" value="6dcbbe46e4c3288d9c0cc34bcd22aef2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Recepcion/Crear_Flujo" time="122.724" classname="Test Cases/Recepcion/Crear_Flujo" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Recepcion/Crear_Flujo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '' to object 'Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$4.call(Unknown Source)
+	at Crear_Flujo.run(Crear_Flujo:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576686479448.run(TempTestSuite1576686479448.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1' located by 'By.xpath: //input[@value='L']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-12-18 11:28:01 - [TEST_CASE][FAILED] - Test Cases/Recepcion/Crear_Flujo: Test Cases/Recepcion/Crear_Flujo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '' to object 'Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$4.call(Unknown Source)
+	at Crear_Flujo.run(Crear_Flujo:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576686479448.run(TempTestSuite1576686479448.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1' located by 'By.xpath: //input[@value='L']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-12-18 11:28:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("IniciarSesion_AplicacionCAF/IngresarPaginaPrincipal_CAF"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/IniciarSesion_AplicacionCAF/IngresarPaginaPrincipal_CAF' successfully
+
+2019-12-18 11:28:02 - [TEST_CASE][PASSED] - Test Cases/IniciarSesion_AplicacionCAF/IngresarPaginaPrincipal_CAF: Test Cases/IniciarSesion_AplicacionCAF/IngresarPaginaPrincipal_CAF
+
+2019-12-18 11:28:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-18 11:28:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-18 11:28:02 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-18 11:28:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-18 11:28:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-12-18 11:28:13 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-18 11:28:13 - [TEST_STEP][PASSED] - navigateToUrl("http://smdepbwsp02v:8004/sites/correspondencia/oecu/Lists/CSL_Correspondencia/AllItems.aspx"): Navigate to 'http://smdepbwsp02v:8004/sites/correspondencia/oecu/Lists/CSL_Correspondencia/AllItems.aspx' successfully
+
+2019-12-18 11:28:16 - [MESSAGE][PASSED] - Navigate to 'http://smdepbwsp02v:8004/sites/correspondencia/oecu/Lists/CSL_Correspondencia/AllItems.aspx' successfully
+
+2019-12-18 11:28:16 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2019-12-18 11:28:16 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2019-12-18 11:28:16 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2019-12-18 11:28:16 - [MESSAGE][INFO] - ===============================================================
+
+2019-12-18 11:28:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IniciarSesion_AplicacionCAF/IngresarPaginaPrincipal_CAF' successfully
+
+2019-12-18 11:28:16 - [TEST_STEP][PASSED] - click(findTestObject("Recepcion/Crear Flujo/Boton Crear Nuevo Elemento")): Object: 'Object Repository/Recepcion/Crear Flujo/Boton Crear Nuevo Elemento' is clicked on
+
+2019-12-18 11:28:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Recepcion/Crear Flujo/Boton Crear Nuevo Elemento' is clicked on
+
+2019-12-18 11:28:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Procedencia_procedencia-input")): Object: 'Object Repository/Recepcion/Crear Flujo/input_Procedencia_procedencia-input' is clicked on
+
+2019-12-18 11:28:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Recepcion/Crear Flujo/input_Procedencia_procedencia-input' is clicked on
+
+2019-12-18 11:28:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Procedencia_procedencia-input"), "ECUADOR"): Text 'ECUADOR' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Procedencia_procedencia-input'
+
+2019-12-18 11:28:21 - [MESSAGE][PASSED] - Text 'ECUADOR' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Procedencia_procedencia-input'
+
+2019-12-18 11:28:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Tipo Documento_tipoDocumento-input"), "ORIGINAL"): Text 'ORIGINAL' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Tipo Documento_tipoDocumento-input'
+
+2019-12-18 11:28:22 - [MESSAGE][PASSED] - Text 'ORIGINAL' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Tipo Documento_tipoDocumento-input'
+
+2019-12-18 11:28:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Recepcion/Crear Flujo/i_")): Object: 'Object Repository/Recepcion/Crear Flujo/i_' is clicked on
+
+2019-12-18 11:28:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Recepcion/Crear Flujo/i_' is clicked on
+
+2019-12-18 11:28:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Recepcion/Crear Flujo/span_20")): Object: 'Object Repository/Recepcion/Crear Flujo/span_20' is clicked on
+
+2019-12-18 11:28:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Recepcion/Crear Flujo/span_20' is clicked on
+
+2019-12-18 11:28:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Nmero Oficio_numeroOficio"), "12"): Text '12' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Nmero Oficio_numeroOficio'
+
+2019-12-18 11:28:23 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Nmero Oficio_numeroOficio'
+
+2019-12-18 11:28:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Relacionado Con_relacionadoCon-input"), "CFA"): Text 'CFA' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Relacionado Con_relacionadoCon-input'
+
+2019-12-18 11:28:24 - [MESSAGE][PASSED] - Text 'CFA' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Relacionado Con_relacionadoCon-input'
+
+2019-12-18 11:28:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Nombre de Crdito_nombreCredito"), "PRUEBA"): Text 'PRUEBA' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Nombre de Crdito_nombreCredito'
+
+2019-12-18 11:28:24 - [MESSAGE][PASSED] - Text 'PRUEBA' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Nombre de Crdito_nombreCredito'
+
+2019-12-18 11:28:24 - [TEST_STEP][PASSED] - click(findTestObject("Recepcion/Crear Flujo/span_BANCO DE LA REPUBLICA")): Object: 'Object Repository/Recepcion/Crear Flujo/span_BANCO DE LA REPUBLICA' is clicked on
+
+2019-12-18 11:28:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Recepcion/Crear Flujo/span_BANCO DE LA REPUBLICA' is clicked on
+
+2019-12-18 11:28:25 - [TEST_STEP][PASSED] - click(findTestObject("Recepcion/Crear Flujo/input_Cargo del Remitente (1)_cargoRemitenteA")): Object: 'Object Repository/Recepcion/Crear Flujo/input_Cargo del Remitente (1)_cargoRemitenteA' is clicked on
+
+2019-12-18 11:28:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Recepcion/Crear Flujo/input_Cargo del Remitente (1)_cargoRemitenteA' is clicked on
+
+2019-12-18 11:28:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Nombre del Remitente (1)_nombreRemitenteA"), "Andres"): Text 'Andres' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Nombre del Remitente (1)_nombreRemitenteA'
+
+2019-12-18 11:28:26 - [MESSAGE][PASSED] - Text 'Andres' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Nombre del Remitente (1)_nombreRemitenteA'
+
+2019-12-18 11:28:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Cargo del Remitente (1)_cargoRemitenteA"), "DIRECTOR"): Text 'DIRECTOR' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Cargo del Remitente (1)_cargoRemitenteA'
+
+2019-12-18 11:28:26 - [MESSAGE][PASSED] - Text 'DIRECTOR' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Cargo del Remitente (1)_cargoRemitenteA'
+
+2019-12-18 11:28:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Nombre del Remitente (2)_nombreRemitenteB"), "DG"): Text 'DG' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Nombre del Remitente (2)_nombreRemitenteB'
+
+2019-12-18 11:28:27 - [MESSAGE][PASSED] - Text 'DG' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Nombre del Remitente (2)_nombreRemitenteB'
+
+2019-12-18 11:28:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Cargo del Remitente (2)_cargoRemitenteB"), "HOLA"): Text 'HOLA' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Cargo del Remitente (2)_cargoRemitenteB'
+
+2019-12-18 11:28:27 - [MESSAGE][PASSED] - Text 'HOLA' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Cargo del Remitente (2)_cargoRemitenteB'
+
+2019-12-18 11:28:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1"), "Laura Vanessa García Agudelo"): Text 'Laura Vanessa García Agudelo' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1'
+
+2019-12-18 11:29:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@value='L']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-18 11:29:14 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-18 11:29:14 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//input[@value='L']'.
+
+2019-12-18 11:29:15 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[@id='correspondencia-nuevo-cewp-container']/div/div/div[14]/div/div/div/div/input'.
+
+2019-12-18 11:29:15 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1_idRelative.png
+
+2019-12-18 11:29:15 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[14]/div/div/div/div/input'.
+
+2019-12-18 11:29:16 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1_position.png
+
+2019-12-18 11:29:16 - [MESSAGE][ERROR] - [SMART_XPATH] F:\Proyectos\CAF_FlujoCorrespondencia\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2019-12-18 11:29:16 - [MESSAGE][ERROR] - [SMART_XPATH] F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-18 11:29:16 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '//div[@id='correspondencia-nuevo-cewp-container']/div/div/div[14]/div/div/div/div/input'.
+
+2019-12-18 11:29:16 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-18 11:29:16 - [MESSAGE][PASSED] - Text 'Laura Vanessa García Agudelo' is set on object 'Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1'
+
+2019-12-18 11:29:16 - [TEST_STEP][FAILED] - sendKeys(findTestObject("Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1"), Keys.chord(ENTER)): Unable to send keys '' to object 'Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to send keys '' to object 'Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$4.call(Unknown Source)
+	at Crear_Flujo.run(Crear_Flujo:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576686479448.run(TempTestSuite1576686479448.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1' located by 'By.xpath: //input[@value='L']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$4.call(Unknown Source)
+	at Script1575391245909.run(Script1575391245909.groovy:57)
+	... 13 more
+)
+
+2019-12-18 11:30:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@value='L']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-18 11:30:03 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-18 11:30:03 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//input[@value='L']'.
+
+2019-12-18 11:30:03 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//div[@id='correspondencia-nuevo-cewp-container']/div/div/div[14]/div/div/div/div/input'.
+
+2019-12-18 11:30:04 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//div[14]/div/div/div/div/input'.
+
+2019-12-18 11:30:04 - [MESSAGE][INFO] - [SMART_XPATH] No working XPath is found.
+
+2019-12-18 11:30:04 - [MESSAGE][FAILED] - Unable to send keys '' to object 'Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to send keys '' to object 'Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$4.call(Unknown Source)
+	at Crear_Flujo.run(Crear_Flujo:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576686479448.run(TempTestSuite1576686479448.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1' located by 'By.xpath: //input[@value='L']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$4.call(Unknown Source)
+	at Script1575391245909.run(Script1575391245909.groovy:57)
+	... 13 more
+)
+[[ATTACHMENT|F:\\Proyectos\\CAF_FlujoCorrespondencia\\Reports\\20191218_112759\\Correspondencia\\FlujoCompleto\\20191218_112759\\1576686604005.png]]]]></system-out>
+         <system-err><![CDATA[2019-12-18 11:28:01 - [TEST_CASE][FAILED] - Test Cases/Recepcion/Crear_Flujo: Test Cases/Recepcion/Crear_Flujo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '' to object 'Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$4.call(Unknown Source)
+	at Crear_Flujo.run(Crear_Flujo:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576686479448.run(TempTestSuite1576686479448.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1' located by 'By.xpath: //input[@value='L']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-18 11:28:01 - [TEST_SUITE][FAILED] - FlujoCompleto: Test Cases/Recepcion/Crear_Flujo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '' to object 'Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$4.call(Unknown Source)
+	at Crear_Flujo.run(Crear_Flujo:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576686479448.run(TempTestSuite1576686479448.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1' located by 'By.xpath: //input[@value='L']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2019-12-18 11:28:01 - [TEST_SUITE][FAILED] - FlujoCompleto: Test Cases/Recepcion/Crear_Flujo FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to send keys '' to object 'Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:60)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.sendKeys(WebUiBuiltInKeywords.groovy:834)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$sendKeys$4.call(Unknown Source)
+	at Crear_Flujo.run(Crear_Flujo:57)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576686479448.run(TempTestSuite1576686479448.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1' located by 'By.xpath: //input[@value='L']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.call(SendKeysKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -3,28 +3,34 @@
    <description></description>
    <name>a_CORRESPONDENCIA</name>
    <tag></tag>
-   <elementGuidId>040704df-e6b0-4af2-a295-56b59673ec71</elementGuidId>
+   <elementGuidId>26570220-21a8-44b6-95a6-3d95f1ff6a8c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div[2]/div/div/div[3]/div[2]/div/div[3]/div/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div/div/table/tbody/tr[3]/td/ol/li/a</value>
+         <value>//div[@id='app']/div/div[2]/div/div/div[3]/div[2]/div/div[3]/div/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/table/tbody/tr[3]/td/ol/li/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = '
+CORRESPONDENCIA' or . = '
+CORRESPONDENCIA')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://smdepbwsp02v:8004/sites/correspondencia/oecu/Lists/CSL_Correspondencia/EditForm.aspx?ID=153</value>
+      <value>http://smdepbwsp02v:8004/sites/correspondencia/oecu/Lists/CSL_Correspondencia/EditForm.aspx?ID=243</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,14 +66,14 @@ CORRESPONDENCIA</value>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;ms-Fabric _2HTFmaDIVHVbnIkwPM9srx root-42&quot;]/div[@class=&quot;_3KAPMPOz8KsW24ooeUflK2&quot;]/div[@class=&quot;_2jR8Yc0t2ByBbcz_HIGqZ4&quot;]/div[@class=&quot;_1TpU2KF6f_EeQiytBaYj8I&quot;]/div[@class=&quot;_3mBjlqTqXMUiRuuWRKCPtX css-41&quot;]/div[@class=&quot;_1jw6v9zFEgnOiXShpU1qqM&quot;]/div[@class=&quot;_2a8RUrS_Rz9TgOuFOyVU2E _1o7uVfs1ooIN78PbtKWnd1 _2Vkn_hMDpPrPod82gSw_7g&quot;]/div[@class=&quot;mm4nCLKbIRtx5HvuorDWT&quot;]/div[@class=&quot;_1QDTZfBsizkS8O4Jej5a3A&quot;]/div[1]/div[@class=&quot;_3Ad19uWCrJfZmaKfs-hR2p&quot;]/div[@class=&quot;_1fmZ_av0AzpX0WDUx7Rxsi&quot;]/div[@class=&quot;_2BDBxo-9kfOUcm02zcT5PR&quot;]/div[@class=&quot;aKEZUGyWi5haT6riFXgvp customScrollBar&quot;]/div[@class=&quot;_2le66D_cFAbkq67CrgZcmE&quot;]/div[1]/div[@class=&quot;wide-content-host&quot;]/div[@class=&quot;B1IVVpQay0rPzznhParFr&quot;]/div[2]/div[@class=&quot;_3U2q6dcdZCrTrR_42Nxby JWNdg1hee9_Rz6bIGvG1c allowTextSelection&quot;]/div[1]/div[@class=&quot;rps_8533&quot;]/div[1]/table[1]/tbody[1]/tr[3]/td[1]/ol[1]/li[1]/a[1]</value>
+      <value>id(&quot;app&quot;)/div[@class=&quot;ms-Fabric _2HTFmaDIVHVbnIkwPM9srx root-42&quot;]/div[@class=&quot;_3KAPMPOz8KsW24ooeUflK2&quot;]/div[@class=&quot;_2jR8Yc0t2ByBbcz_HIGqZ4&quot;]/div[@class=&quot;_1TpU2KF6f_EeQiytBaYj8I&quot;]/div[@class=&quot;_3mBjlqTqXMUiRuuWRKCPtX css-41&quot;]/div[@class=&quot;_1jw6v9zFEgnOiXShpU1qqM&quot;]/div[@class=&quot;_2a8RUrS_Rz9TgOuFOyVU2E _1o7uVfs1ooIN78PbtKWnd1 _2Vkn_hMDpPrPod82gSw_7g&quot;]/div[@class=&quot;mm4nCLKbIRtx5HvuorDWT&quot;]/div[@class=&quot;_1QDTZfBsizkS8O4Jej5a3A&quot;]/div[1]/div[@class=&quot;_3Ad19uWCrJfZmaKfs-hR2p&quot;]/div[@class=&quot;_1fmZ_av0AzpX0WDUx7Rxsi&quot;]/div[@class=&quot;_2BDBxo-9kfOUcm02zcT5PR&quot;]/div[@class=&quot;aKEZUGyWi5haT6riFXgvp customScrollBar&quot;]/div[@class=&quot;_2le66D_cFAbkq67CrgZcmE&quot;]/div[1]/div[@class=&quot;wide-content-host&quot;]/div[@class=&quot;B1IVVpQay0rPzznhParFr&quot;]/div[2]/div[@class=&quot;_3U2q6dcdZCrTrR_42Nxby JWNdg1hee9_Rz6bIGvG1c allowTextSelection&quot;]/div[1]/div[@class=&quot;rps_401&quot;]/div[1]/div[@class=&quot;_2Ypz6DjF0cnPXsnj_7roel&quot;]/table[1]/tbody[1]/tr[3]/td[1]/ol[1]/li[1]/a[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div[2]/div/div/div[3]/div[2]/div/div[3]/div/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div/div/table/tbody/tr[3]/td/ol/li/a</value>
+      <value>//div[@id='app']/div/div[2]/div/div/div[3]/div[2]/div/div[3]/div/div/div/div/div[2]/div/div/div/div/div/div[2]/div/div/div/div/div/table/tbody/tr[3]/td/ol/li/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +108,7 @@ CORRESPONDENCIA</value>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://smdepbwsp02v:8004/sites/correspondencia/oecu/Lists/CSL_Correspondencia/EditForm.aspx?ID=153']</value>
+      <value>//a[@href='http://smdepbwsp02v:8004/sites/correspondencia/oecu/Lists/CSL_Correspondencia/EditForm.aspx?ID=243']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

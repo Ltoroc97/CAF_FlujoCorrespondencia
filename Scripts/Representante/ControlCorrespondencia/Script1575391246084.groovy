@@ -18,11 +18,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Representante/SeleccionarCorreo_Integrado'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.switchToWindowTitle('Control Correspondencia - 20191058')
+WebUI.switchToWindowTitle('Control Correspondencia - 20200002')
 
 WebUI.click(findTestObject('Representante/ContinuarFlujo/i_'))
 
-WebUI.click(findTestObject('Representante/ContinuarFlujo/span_28'))
+WebUI.click(findTestObject('Representante/span_9'))
 
 WebUI.click(findTestObject('Representante/ContinuarFlujo/i__1'))
 
@@ -30,17 +30,21 @@ WebUI.setText(findTestObject('Representante/ContinuarFlujo/input_Instrucciones_i
 
 WebUI.setText(findTestObject('Representante/ContinuarFlujo/textarea_V'), 'Actualizar')
 
-WebUI.click(findTestObject('Representante/ContinuarFlujo/button_Completar tarea de aprobacin_Toggle25'))
-
 WebUI.setText(findTestObject('Representante/ContinuarFlujo/input_Ejecutivo Responsable_ms-BasePicker-i_de3217'), 'Laura Vanessa García Agudelo')
 
 WebUI.click(findTestObject('Representante/ContinuarFlujo/div_Laura Vanessa Garca Agudelo'))
 
 WebUI.click(findTestObject('Representante/ContinuarFlujo/div_Correlativo20191058Duracin28 minuto(s)E_99e586'))
 
+WebUI.click(findTestObject('Representante/ContinuarFlujo/button_Completar tarea de aprobacin_Toggle25'))
+
 WebUI.click(findTestObject('Representante/ContinuarFlujo/label_Aprobar'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
-WebUI.click(findTestObject('Representante/div_Guardar'))
+WebUI.click(findTestObject('Representante/ContinuarFlujo/div_Guardar'))
+
+not_run: WebUI.click(findTestObject('Representante/ContinuarFlujo/button_Guardar'))
+
+WebUI.closeBrowser()
 

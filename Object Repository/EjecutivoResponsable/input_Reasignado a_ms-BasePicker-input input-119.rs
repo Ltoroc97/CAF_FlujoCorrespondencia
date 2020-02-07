@@ -3,11 +3,11 @@
    <description></description>
    <name>input_Reasignado a_ms-BasePicker-input input-119</name>
    <tag></tag>
-   <elementGuidId>a96690f7-e385-45bb-89c2-8b5560f0a619</elementGuidId>
+   <elementGuidId>1f339406-63a9-47a1-8523-7a9af0ce9fa9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@value=''])[15]</value>
+         <value>(//input[@value=''])[14]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -94,14 +94,14 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;correspondencia-edicion-cewp-container&quot;)/div[@class=&quot;contenedor&quot;]/div[@class=&quot;ms-Fabric root-86&quot;]/div[25]/div[@class=&quot;ms-BasePicker ms-PeoplePicker root-116&quot;]/div[@class=&quot;ms-FocusZone css-120&quot;]/div[@class=&quot;ms-SelectionZone&quot;]/div[@class=&quot;ms-BasePicker-text text-157&quot;]/input[@class=&quot;ms-BasePicker-input input-119&quot;]</value>
+      <value>id(&quot;correspondencia-edicion-cewp-container&quot;)/div[@class=&quot;contenedor&quot;]/div[@class=&quot;ms-Fabric root-86&quot;]/div[25]/div[@class=&quot;ms-BasePicker ms-PeoplePicker root-116&quot;]/div[@class=&quot;ms-FocusZone css-120&quot;]/div[@class=&quot;ms-SelectionZone&quot;]/div[@class=&quot;ms-BasePicker-text text-117&quot;]/input[@class=&quot;ms-BasePicker-input input-119&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//input[@value=''])[15]</value>
+      <value>(//input[@value=''])[14]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

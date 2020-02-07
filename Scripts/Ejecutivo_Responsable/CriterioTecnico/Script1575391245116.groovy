@@ -18,17 +18,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Representante/InicioSesion_AccesoCorreo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/CriterioTecnico/span_20191058 PRUEBA - APROBACIN CRITERIO TCNICO'))
+WebUI.click(findTestObject('CriterioTecnico/span_20200002 PRUEBA - APROBACIN CRITERIO TCNICO'))
 
-WebUI.click(findTestObject('Object Repository/CriterioTecnico/a_CORRESPONDENCIA'))
+WebUI.click(findTestObject('CriterioTecnico/a_CORRESPONDENCIA'))
 
-WebUI.switchToWindowTitle('Control Correspondencia - 20191058')
+WebUI.switchToWindowTitle('Control Correspondencia - 20200002')
 
-WebUI.click(findTestObject('Object Repository/CriterioTecnico/button_Completar tarea de aprobacin_Toggle25'))
+WebUI.click(findTestObject('CriterioTecnico/button_Completar tarea de aprobacin_Toggle25'))
 
 WebUI.click(findTestObject('CriterioTecnico/label_Aprobar'))
 
-WebUI.delay(5)
+WebUI.delay(3)
+
+WebUI.click(findTestObject('CriterioTecnico/button_Guardar'))
 
 WebUI.click(findTestObject('CriterioTecnico/div_Guardar'))
+
+WebUI.closeBrowser()
 

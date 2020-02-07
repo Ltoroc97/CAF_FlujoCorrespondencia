@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Adjuntos_adjuntos-input</name>
    <tag></tag>
-   <elementGuidId>30f8d2ca-af70-4f29-aa91-69cffa3f8aac</elementGuidId>
+   <elementGuidId>aa5d6065-4a21-4113-88dc-3e628cd718a6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -109,13 +109,6 @@
       <name>data-lpignore</name>
       <type>Main</type>
       <value>true</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>FACTURAS</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

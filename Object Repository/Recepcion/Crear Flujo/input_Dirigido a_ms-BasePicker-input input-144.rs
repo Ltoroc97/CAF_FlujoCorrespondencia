@@ -3,14 +3,18 @@
    <description></description>
    <name>input_Dirigido a_ms-BasePicker-input input-144</name>
    <tag></tag>
-   <elementGuidId>76361657-e00f-4597-8c41-3879140726ba</elementGuidId>
+   <elementGuidId>c2d4cd8b-69af-4330-9c89-ac78a56cbd46</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'ms-BasePicker-input input-144']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>	</value>
+         <value>(//input[@value=''])[24]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,7 +31,7 @@
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -90,11 +94,11 @@
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;correspondencia-nuevo-cewp-container&quot;)/div[@class=&quot;contenedor&quot;]/div[@class=&quot;ms-Fabric root-86&quot;]/div[14]/div[@class=&quot;ms-BasePicker ms-PeoplePicker root-121&quot;]/div[@class=&quot;ms-FocusZone css-145&quot;]/div[@class=&quot;ms-SelectionZone&quot;]/div[@class=&quot;ms-BasePicker-text text-169&quot;]/input[@class=&quot;ms-BasePicker-input input-144&quot;]</value>
+      <value>id(&quot;correspondencia-nuevo-cewp-container&quot;)/div[@class=&quot;contenedor&quot;]/div[@class=&quot;ms-Fabric root-86&quot;]/div[14]/div[@class=&quot;ms-BasePicker ms-PeoplePicker root-121&quot;]/div[@class=&quot;ms-FocusZone css-145&quot;]/div[@class=&quot;ms-SelectionZone&quot;]/div[@class=&quot;ms-BasePicker-text text-142&quot;]/input[@class=&quot;ms-BasePicker-input input-144&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

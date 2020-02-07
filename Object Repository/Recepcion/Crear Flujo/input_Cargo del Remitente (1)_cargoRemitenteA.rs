@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Cargo del Remitente (1)_cargoRemitenteA</name>
    <tag></tag>
-   <elementGuidId>3a91c7bc-8aab-429d-a417-6cf4ebc5517e</elementGuidId>
+   <elementGuidId>6974e8c2-3099-4425-bc6f-592e44d64aab</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

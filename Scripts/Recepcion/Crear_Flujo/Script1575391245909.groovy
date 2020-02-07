@@ -18,7 +18,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('IniciarSesion_AplicacionCAF/IngresarPaginaPrincipal_CAF'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Recepcion/Boton Crear Nuevo Elemento'))
+WebUI.click(findTestObject('Recepcion/Crear Flujo/span_nuevo elemento'))
 
 WebUI.click(findTestObject('Object Repository/Recepcion/Crear Flujo/input_Procedencia_procedencia-input'))
 
@@ -28,11 +28,11 @@ WebUI.setText(findTestObject('Object Repository/Recepcion/Crear Flujo/input_Tipo
 
 WebUI.click(findTestObject('Object Repository/Recepcion/Crear Flujo/i_'))
 
-WebUI.click(findTestObject('Object Repository/Recepcion/Crear Flujo/span_20'))
+WebUI.click(findTestObject('Recepcion/Crear Flujo/span_20'))
 
-WebUI.setText(findTestObject('Object Repository/Recepcion/Crear Flujo/input_Nmero Oficio_numeroOficio'), '12')
+WebUI.setText(findTestObject('Recepcion/Crear Flujo/input_Nmero Oficio_numeroOficio'), '12')
 
-WebUI.setText(findTestObject('Object Repository/Recepcion/Crear Flujo/input_Relacionado Con_relacionadoCon-input'), 'PRESTAMO PUBLICO')
+WebUI.setText(findTestObject('Object Repository/Recepcion/Crear Flujo/input_Relacionado Con_relacionadoCon-input'), 'CFA')
 
 WebUI.setText(findTestObject('Object Repository/Recepcion/Crear Flujo/input_Nombre de Crdito_nombreCredito'), 'PRUEBA')
 
@@ -40,25 +40,21 @@ WebUI.click(findTestObject('Recepcion/Crear Flujo/span_BANCO DE LA REPUBLICA'))
 
 WebUI.click(findTestObject('Recepcion/Crear Flujo/input_Cargo del Remitente (1)_cargoRemitenteA'))
 
-WebUI.setText(findTestObject('Object Repository/Recepcion/Crear Flujo/input_Nombre del Remitente (1)_nombreRemitenteA'), 
-    'Andres')
+WebUI.setText(findTestObject('Recepcion/Crear Flujo/input_Nombre del Remitente (1)_nombreRemitenteA'), 'Andres')
 
-WebUI.setText(findTestObject('Object Repository/Recepcion/Crear Flujo/input_Cargo del Remitente (1)_cargoRemitenteA'), 'DIRECTOR')
+WebUI.setText(findTestObject('Recepcion/Crear Flujo/input_Cargo del Remitente (1)_cargoRemitenteA'), 'DIRECTOR')
 
-WebUI.setText(findTestObject('Object Repository/Recepcion/Crear Flujo/input_Nombre del Remitente (2)_nombreRemitenteB'), 
-    'DG')
+WebUI.setText(findTestObject('Recepcion/Crear Flujo/input_Nombre del Remitente (2)_nombreRemitenteB'), 'DG')
 
 WebUI.setText(findTestObject('Object Repository/Recepcion/Crear Flujo/input_Cargo del Remitente (2)_cargoRemitenteB'), 'HOLA')
 
-WebUI.setText(findTestObject('Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1'), 
-    'Laura Vanessa García Agudelo')
+WebUI.setText(findTestObject('Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144'), 'Laura Vanessa García Agudelo')
 
-WebUI.sendKeys(findTestObject('Object Repository/Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1'), 
-    Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Recepcion/Crear Flujo/input_Dirigido a_ms-BasePicker-input input-144_1'), Keys.chord(Keys.ENTER))
 
-WebUI.setText(findTestObject('Object Repository/Recepcion/Crear Flujo/textarea_F'), 'verificar campos')
+WebUI.setText(findTestObject('Recepcion/textarea_Asunto 1_asuntoA'), 'verificar campos')
 
-WebUI.setText(findTestObject('Object Repository/Recepcion/Crear Flujo/input_Adjuntos_adjuntos-input'), 'FACTURAS')
+WebUI.setText(findTestObject('Recepcion/Crear Flujo/input_Adjuntos_adjuntos-input'), 'FACTURAS')
 
 WebUI.delay(5)
 

@@ -3,14 +3,18 @@
    <description></description>
    <name>input_Dirigido a_ms-BasePicker-input input-144_1</name>
    <tag></tag>
-   <elementGuidId>5c9713c4-ed8a-4dea-a3f5-048edf4bb3f7</elementGuidId>
+   <elementGuidId>1428d535-5466-4d22-87f7-c5b489cca88f</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@class = 'ms-BasePicker-input input-144']</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@value='L']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -27,7 +31,7 @@
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -97,7 +101,7 @@
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
@@ -108,7 +112,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='L']</value>
+      <value>(//input[@value=''])[15]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

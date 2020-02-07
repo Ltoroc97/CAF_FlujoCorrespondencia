@@ -18,11 +18,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Representante/InicioSesion_AccesoCorreo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Gestion Administrativa/span_20191058 PRUEBA - APROBACIN GESTIN ADM_284990'))
+WebUI.click(findTestObject('Gestion Administrativa/span_20200002 PRUEBA - APROBACIN GESTIN ADMINISTRATIVA'))
 
 WebUI.click(findTestObject('Object Repository/Gestion Administrativa/a_CORRESPONDENCIA'))
 
-WebUI.switchToWindowTitle('Control Correspondencia - 20191058')
+WebUI.switchToWindowTitle('Control Correspondencia - 20200002')
 
 WebUI.click(findTestObject('Object Repository/Gestion Administrativa/i_'))
 
@@ -32,9 +32,13 @@ WebUI.setText(findTestObject('Object Repository/Gestion Administrativa/input_Arc
 
 WebUI.setText(findTestObject('Object Repository/Gestion Administrativa/div_finalizar'), 'Finalizar')
 
-WebUI.click(findTestObject('Object Repository/Gestion Administrativa/button_Completar tarea de aprobacin_Toggle31'))
+WebUI.click(findTestObject('Gestion Administrativa/button_Completar tarea de aprobacin_Toggle28'))
 
-WebUI.click(findTestObject('Object Repository/Gestion Administrativa/label_Aprobar'))
+WebUI.click(findTestObject('Gestion Administrativa/label_Aprobar'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Gestion Administrativa/button_Guardar'))
 
 WebUI.click(findTestObject('Gestion Administrativa/div_Guardar'))
 

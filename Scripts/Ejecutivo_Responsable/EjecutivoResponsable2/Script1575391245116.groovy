@@ -18,11 +18,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Representante/InicioSesion_AccesoCorreo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('EjecutivoResponsable2/span_20191058 PRUEBA - APROBACIN EJECUTIVO _d45029'))
+WebUI.click(findTestObject('EjecutivoResponsable2/span_20200002 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE'))
 
 WebUI.click(findTestObject('EjecutivoResponsable2/a_CORRESPONDENCIA'))
 
-WebUI.switchToWindowTitle('Control Correspondencia - 20191058')
+WebUI.switchToWindowTitle('Control Correspondencia - 20200002')
 
 WebUI.setText(findTestObject('EjecutivoResponsable2/div_httpstasksintergrupocomlogin_pagephpreturnmain_pagephp'), 'link portal')
 
@@ -32,7 +32,9 @@ WebUI.click(findTestObject('EjecutivoResponsable2/button_Completar tarea de apro
 
 WebUI.click(findTestObject('EjecutivoResponsable2/label_Aprobar'))
 
-WebUI.delay(5)
+WebUI.delay(3)
+
+WebUI.click(findTestObject('EjecutivoResponsable2/button_Guardar'))
 
 WebUI.click(findTestObject('EjecutivoResponsable2/div_Guardar'))
 

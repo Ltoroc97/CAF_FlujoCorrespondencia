@@ -18,26 +18,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Representante/InicioSesion_AccesoCorreo'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/EjecutivoResponsable/span_20191058 PRUEBA - APROBACIN EJECUTIVO _d45029'))
+WebUI.click(findTestObject('EjecutivoResponsable/span_20200002 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE'))
 
-WebUI.click(findTestObject('Object Repository/EjecutivoResponsable/a_CORRESPONDENCIA'))
+WebUI.click(findTestObject('EjecutivoResponsable/a_CORRESPONDENCIA'))
 
-WebUI.switchToWindowTitle('Control Correspondencia - 20191058')
+WebUI.switchToWindowTitle('Control Correspondencia - 20200002')
 
 WebUI.setText(findTestObject('Object Repository/EjecutivoResponsable/div_sdfsfwewe'), 'https://tasks.intergrupo.com/login_page.php?return=main_page.php')
 
-WebUI.setText(findTestObject('Object Repository/EjecutivoResponsable/input_Reasignado a_ms-BasePicker-input input-119'), 
-    'Laura Vanessa García Agudelo')
+WebUI.setText(findTestObject('EjecutivoResponsable/input_Reasignado a_ms-BasePicker-input input-119'), 'Laura Vanessa García Agudelo')
 
-WebUI.click(findTestObject('Object Repository/EjecutivoResponsable/div_LLaura Vanessa Garca AgudeloLgarciaaint_951ad5'))
+WebUI.click(findTestObject('EjecutivoResponsable/div_Laura Vanessa Garca Agudelo'))
 
 WebUI.click(findTestObject('Object Repository/EjecutivoResponsable/label_EVALUACIN CRITERIO TCNICO'))
 
-WebUI.click(findTestObject('Object Repository/EjecutivoResponsable/button_Completar tarea de aprobacin_Toggle22'))
+WebUI.click(findTestObject('EjecutivoResponsable/div_Completar tarea de aprobacin_ms-Toggle-thumb thumb-156'))
 
 WebUI.click(findTestObject('EjecutivoResponsable/label_Aprobar'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('EjecutivoResponsable/div_Guardar'))
+
+WebUI.click(findTestObject('EjecutivoResponsable/button_Guardar'))
 

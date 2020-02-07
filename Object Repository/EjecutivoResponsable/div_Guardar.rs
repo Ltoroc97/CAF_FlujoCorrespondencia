@@ -3,11 +3,15 @@
    <description></description>
    <name>div_Guardar</name>
    <tag></tag>
-   <elementGuidId>9efb081f-7839-4d19-94e4-16ea8916c7d6</elementGuidId>
+   <elementGuidId>f43761f4-3087-43e4-a31c-b889e6ffc265</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'ms-Button-label label-134' and (text() = 'Guardar' or . = 'Guardar')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='id__14']</value>
+         <value>//div[@id='correspondencia-edicion-cewp-container']/div/div/div[33]/button/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -24,14 +28,7 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ms-Button-label label-153</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>id__14</value>
+      <value>ms-Button-flexContainer flexContainer-131</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,62 +42,41 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;id__14&quot;)</value>
+      <value>id(&quot;correspondencia-edicion-cewp-container&quot;)/div[@class=&quot;contenedor&quot;]/div[@class=&quot;ms-Fabric root-86&quot;]/div[@class=&quot;ms-Stack css-129&quot;]/button[@class=&quot;ms-Button ms-Button--primary root-130&quot;]/div[@class=&quot;ms-Button-flexContainer flexContainer-131&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//div[@id='id__14']</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='correspondencia-edicion-cewp-container']/div/div/div[34]/button/div/div/div</value>
+      <value>//div[@id='correspondencia-edicion-cewp-container']/div/div/div[33]/button/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Devolver'])[1]/following::div[6]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::div[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aprobar'])[1]/following::div[8]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Completar tarea de aprobación'])[1]/following::div[6]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancelar'])[1]/preceding::div[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'id__14', '&quot;', ')')])[1]/preceding::div[8]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Guardar']/parent::*</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancelar'])[1]/preceding::div[3]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button/div/div/div</value>
+      <value>//div[33]/button/div</value>
    </webElementXpaths>
 </WebElementEntity>

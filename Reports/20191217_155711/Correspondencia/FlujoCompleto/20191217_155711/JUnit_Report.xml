@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FlujoCompleto" time="324.693" tests="3" failures="0" errors="0">
+   <testsuite name="FlujoCompleto" tests="3" failures="0" errors="0" time="324.693" timestamp="2019-12-17 15:57:14" hostname="Lgarciaa - P-Lgarciaa.intergrupo.com" id="Test Suites/Correspondencia/FlujoCompleto">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\Proyectos\\CAF_FlujoCorrespondencia\\Reports\\20191217_155711\\Correspondencia\\FlujoCompleto\\20191217_155711"/>
+         <property name="logFiles" value="F:\\Proyectos\\CAF_FlujoCorrespondencia\\Reports\\20191217_155711\\Correspondencia\\FlujoCompleto\\20191217_155711\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lgarciaa - P-Lgarciaa.intergrupo.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.0.1"/>
+         <property name="browser" value="Chrome 79.0.3945.79"/>
+         <property name="hostAddress" value="10.60.6.13"/>
+         <property name="sessionId" value="f003c7a4737bf41aaff8bf70ab2f2c10"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Ejecutivo_Responsable/CriterioTecnico" time="97.056" classname="Test Cases/Ejecutivo_Responsable/CriterioTecnico" status="PASSED">
+         <system-out><![CDATA[2019-12-17 15:57:14 - [TEST_CASE][PASSED] - Test Cases/Ejecutivo_Responsable/CriterioTecnico: Test Cases/Ejecutivo_Responsable/CriterioTecnico
+
+2019-12-17 15:57:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Representante/InicioSesion_AccesoCorreo"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Representante/InicioSesion_AccesoCorreo' successfully
+
+2019-12-17 15:57:15 - [TEST_CASE][PASSED] - Test Cases/Representante/InicioSesion_AccesoCorreo: Test Cases/Representante/InicioSesion_AccesoCorreo
+
+2019-12-17 15:57:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-17 15:57:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-17 15:57:15 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-17 15:57:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-17 15:57:24 - [TEST_STEP][PASSED] - navigateToUrl("https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw"): Navigate to 'https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw' successfully
+
+2019-12-17 15:57:25 - [MESSAGE][PASSED] - Navigate to 'https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw' successfully
+
+2019-12-17 15:57:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Representante/input_to continue to Outlook_loginfmt"), "Lgarciaa@intergrupo.com"): Text 'Lgarciaa@intergrupo.com' is set on object 'Object Repository/Representante/input_to continue to Outlook_loginfmt'
+
+2019-12-17 15:57:27 - [MESSAGE][PASSED] - Text 'Lgarciaa@intergrupo.com' is set on object 'Object Repository/Representante/input_to continue to Outlook_loginfmt'
+
+2019-12-17 15:57:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_to continue to Outlook_idSIButton9")): Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:57:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:57:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Representante/input_Enter password_passwd"), "ZOlv4XWAQZkh7wlYSNhOVA=="): Text ****** has been set on object 'Object Repository/Representante/input_Enter password_passwd'
+
+2019-12-17 15:57:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Representante/input_Enter password_passwd'
+
+2019-12-17 15:57:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_to continue to Outlook_idSIButton9")): Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:57:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:57:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back")): Object: 'Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back' is clicked on
+
+2019-12-17 15:57:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back' is clicked on
+
+2019-12-17 15:57:44 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2019-12-17 15:57:48 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-17 15:57:48 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2019-12-17 15:57:48 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2019-12-17 15:57:48 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2019-12-17 15:57:48 - [MESSAGE][INFO] - ===============================================================
+
+2019-12-17 15:57:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Representante/InicioSesion_AccesoCorreo' successfully
+
+2019-12-17 15:57:48 - [TEST_STEP][PASSED] - click(findTestObject("CriterioTecnico/span_20191061 PRUEBA - APROBACIN CRITERIO TCNICO")): Object: 'Object Repository/CriterioTecnico/span_20191061 PRUEBA - APROBACIN CRITERIO TCNICO' is clicked on
+
+2019-12-17 15:58:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='AQAAAMjoylsBAAAAyVgUHwAAAAA=']/div/div/div/div[2]/div[2]/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 15:58:34 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-17 15:58:35 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//div[@id='AQAAAMjoylsBAAAAyVgUHwAAAAA=']/div/div/div/div[2]/div[2]/div/span'.
+
+2019-12-17 15:58:35 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='cafpruebassp@intergrupo.com'])[1]/following::span[5]'.
+
+2019-12-17 15:58:36 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/CriterioTecnico/span_20191061 PRUEBA - APROBACIN CRITERIO TCNICO_neighbor_0.png
+
+2019-12-17 15:58:36 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='C'])[1]/following::span[6]'.
+
+2019-12-17 15:58:37 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/CriterioTecnico/span_20191061 PRUEBA - APROBACIN CRITERIO TCNICO_neighbor_1.png
+
+2019-12-17 15:58:37 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='C'])[2]/preceding::span[3]'.
+
+2019-12-17 15:58:37 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/CriterioTecnico/span_20191061 PRUEBA - APROBACIN CRITERIO TCNICO_neighbor_2.png
+
+2019-12-17 15:58:38 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='cafpruebassp@intergrupo.com'])[2]/preceding::span[4]'.
+
+2019-12-17 15:58:38 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/CriterioTecnico/span_20191061 PRUEBA - APROBACIN CRITERIO TCNICO_neighbor_3.png
+
+2019-12-17 15:58:39 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//*/text()[normalize-space(.)='[20191061] PRUEBA - APROBACIÓN CRITERIO TÉCNICO']/parent::*'.
+
+2019-12-17 15:58:39 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/CriterioTecnico/span_20191061 PRUEBA - APROBACIN CRITERIO TCNICO_neighbor_4.png
+
+2019-12-17 15:58:39 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div/div[2]/div/div/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/span'.
+
+2019-12-17 15:58:40 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/CriterioTecnico/span_20191061 PRUEBA - APROBACIN CRITERIO TCNICO_position.png
+
+2019-12-17 15:58:40 - [MESSAGE][ERROR] - [SMART_XPATH] F:\Proyectos\CAF_FlujoCorrespondencia\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2019-12-17 15:58:40 - [MESSAGE][ERROR] - [SMART_XPATH] F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-17 15:58:40 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '(.//*[normalize-space(text()) and normalize-space(.)='cafpruebassp@intergrupo.com'])[1]/following::span[5]'.
+
+2019-12-17 15:58:40 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-17 15:58:41 - [MESSAGE][PASSED] - Object: 'Object Repository/CriterioTecnico/span_20191061 PRUEBA - APROBACIN CRITERIO TCNICO' is clicked on
+
+2019-12-17 15:58:41 - [TEST_STEP][PASSED] - click(findTestObject("CriterioTecnico/a_CORRESPONDENCIA")): Object: 'Object Repository/CriterioTecnico/a_CORRESPONDENCIA' is clicked on
+
+2019-12-17 15:58:42 - [MESSAGE][PASSED] - Object: 'Object Repository/CriterioTecnico/a_CORRESPONDENCIA' is clicked on
+
+2019-12-17 15:58:42 - [TEST_STEP][PASSED] - switchToWindowTitle("Control Correspondencia - 20191061"): Switched to window with title: 'Control Correspondencia - 20191061'
+
+2019-12-17 15:58:47 - [MESSAGE][PASSED] - Switched to window with title: 'Control Correspondencia - 20191061'
+
+2019-12-17 15:58:47 - [TEST_STEP][PASSED] - click(findTestObject("CriterioTecnico/button_Completar tarea de aprobacin_Toggle25")): Object: 'Object Repository/CriterioTecnico/button_Completar tarea de aprobacin_Toggle25' is clicked on
+
+2019-12-17 15:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/CriterioTecnico/button_Completar tarea de aprobacin_Toggle25' is clicked on
+
+2019-12-17 15:58:47 - [TEST_STEP][PASSED] - click(findTestObject("CriterioTecnico/label_Aprobar")): Object: 'Object Repository/CriterioTecnico/label_Aprobar' is clicked on
+
+2019-12-17 15:58:48 - [MESSAGE][PASSED] - Object: 'Object Repository/CriterioTecnico/label_Aprobar' is clicked on
+
+2019-12-17 15:58:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-12-17 15:58:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-17 15:58:51 - [TEST_STEP][PASSED] - click(findTestObject("CriterioTecnico/div_Guardar")): Object: 'Object Repository/CriterioTecnico/div_Guardar' is clicked on
+
+2019-12-17 15:58:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CriterioTecnico/div_Guardar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Ejecutivo_Responsable/EjecutivoResponsable2" time="86.088" classname="Test Cases/Ejecutivo_Responsable/EjecutivoResponsable2" status="PASSED">
+         <system-out><![CDATA[2019-12-17 15:58:51 - [TEST_CASE][PASSED] - Test Cases/Ejecutivo_Responsable/EjecutivoResponsable2: Test Cases/Ejecutivo_Responsable/EjecutivoResponsable2
+
+2019-12-17 15:58:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Representante/InicioSesion_AccesoCorreo"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Representante/InicioSesion_AccesoCorreo' successfully
+
+2019-12-17 15:58:52 - [TEST_CASE][PASSED] - Test Cases/Representante/InicioSesion_AccesoCorreo: Test Cases/Representante/InicioSesion_AccesoCorreo
+
+2019-12-17 15:58:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-17 15:58:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-17 15:58:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-17 15:59:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-17 15:59:00 - [TEST_STEP][PASSED] - navigateToUrl("https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw"): Navigate to 'https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw' successfully
+
+2019-12-17 15:59:01 - [MESSAGE][PASSED] - Navigate to 'https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw' successfully
+
+2019-12-17 15:59:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Representante/input_to continue to Outlook_loginfmt"), "Lgarciaa@intergrupo.com"): Text 'Lgarciaa@intergrupo.com' is set on object 'Object Repository/Representante/input_to continue to Outlook_loginfmt'
+
+2019-12-17 15:59:02 - [MESSAGE][PASSED] - Text 'Lgarciaa@intergrupo.com' is set on object 'Object Repository/Representante/input_to continue to Outlook_loginfmt'
+
+2019-12-17 15:59:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_to continue to Outlook_idSIButton9")): Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:59:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:59:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Representante/input_Enter password_passwd"), "ZOlv4XWAQZkh7wlYSNhOVA=="): Text ****** has been set on object 'Object Repository/Representante/input_Enter password_passwd'
+
+2019-12-17 15:59:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Representante/input_Enter password_passwd'
+
+2019-12-17 15:59:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_to continue to Outlook_idSIButton9")): Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:59:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 15:59:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back")): Object: 'Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back' is clicked on
+
+2019-12-17 15:59:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back' is clicked on
+
+2019-12-17 15:59:11 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2019-12-17 15:59:15 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-17 15:59:15 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2019-12-17 15:59:15 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2019-12-17 15:59:15 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2019-12-17 15:59:15 - [MESSAGE][INFO] - ===============================================================
+
+2019-12-17 15:59:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Representante/InicioSesion_AccesoCorreo' successfully
+
+2019-12-17 15:59:15 - [TEST_STEP][PASSED] - click(findTestObject("EjecutivoResponsable2/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE")): Object: 'Object Repository/EjecutivoResponsable2/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE' is clicked on
+
+2019-12-17 15:59:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='AQAAAMjoylsBAAAAyVgUHgAAAAA=']/div/div/div/div[2]/div[2]/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 15:59:58 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-17 15:59:58 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//div[@id='AQAAAMjoylsBAAAAyVgUHgAAAAA=']/div/div/div/div[2]/div[2]/div/span'.
+
+2019-12-17 15:59:58 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='cafpruebassp@intergrupo.com'])[1]/following::span[5]'.
+
+2019-12-17 16:00:01 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable2/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE_neighbor_1.png
+
+2019-12-17 16:00:01 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='C'])[1]/following::span[6]'.
+
+2019-12-17 16:00:02 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable2/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE_neighbor_2.png
+
+2019-12-17 16:00:02 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='C'])[2]/preceding::span[3]'.
+
+2019-12-17 16:00:02 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable2/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE_neighbor_3.png
+
+2019-12-17 16:00:03 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='cafpruebassp@intergrupo.com'])[2]/preceding::span[4]'.
+
+2019-12-17 16:00:03 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable2/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE_neighbor_4.png
+
+2019-12-17 16:00:04 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//*/text()[normalize-space(.)='[20191061] PRUEBA - APROBACIÓN EJECUTIVO RESPONSABLE']/parent::*'.
+
+2019-12-17 16:00:04 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable2/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE_neighbor_5.png
+
+2019-12-17 16:00:04 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div/div[2]/div/div/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/span'.
+
+2019-12-17 16:00:05 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/EjecutivoResponsable2/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE_position.png
+
+2019-12-17 16:00:05 - [MESSAGE][ERROR] - [SMART_XPATH] F:\Proyectos\CAF_FlujoCorrespondencia\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2019-12-17 16:00:05 - [MESSAGE][ERROR] - [SMART_XPATH] F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-17 16:00:05 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '(.//*[normalize-space(text()) and normalize-space(.)='cafpruebassp@intergrupo.com'])[1]/following::span[5]'.
+
+2019-12-17 16:00:05 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-17 16:00:05 - [MESSAGE][PASSED] - Object: 'Object Repository/EjecutivoResponsable2/span_20191061 PRUEBA - APROBACIN EJECUTIVO RESPONSABLE' is clicked on
+
+2019-12-17 16:00:05 - [TEST_STEP][PASSED] - click(findTestObject("EjecutivoResponsable2/a_CORRESPONDENCIA")): Object: 'Object Repository/EjecutivoResponsable2/a_CORRESPONDENCIA' is clicked on
+
+2019-12-17 16:00:07 - [MESSAGE][PASSED] - Object: 'Object Repository/EjecutivoResponsable2/a_CORRESPONDENCIA' is clicked on
+
+2019-12-17 16:00:07 - [TEST_STEP][PASSED] - switchToWindowTitle("Control Correspondencia - 20191061"): Switched to window with title: 'Control Correspondencia - 20191061'
+
+2019-12-17 16:00:11 - [MESSAGE][PASSED] - Switched to window with title: 'Control Correspondencia - 20191061'
+
+2019-12-17 16:00:11 - [TEST_STEP][PASSED] - setText(findTestObject("EjecutivoResponsable2/div_httpstasksintergrupocomlogin_pagephpreturnmain_pagephp"), "link portal"): Text 'link portal' is set on object 'Object Repository/EjecutivoResponsable2/div_httpstasksintergrupocomlogin_pagephpreturnmain_pagephp'
+
+2019-12-17 16:00:12 - [MESSAGE][PASSED] - Text 'link portal' is set on object 'Object Repository/EjecutivoResponsable2/div_httpstasksintergrupocomlogin_pagephpreturnmain_pagephp'
+
+2019-12-17 16:00:12 - [TEST_STEP][PASSED] - click(findTestObject("EjecutivoResponsable2/label_GESTIN ADMINISTRATIVA")): Object: 'Object Repository/EjecutivoResponsable2/label_GESTIN ADMINISTRATIVA' is clicked on
+
+2019-12-17 16:00:12 - [MESSAGE][PASSED] - Object: 'Object Repository/EjecutivoResponsable2/label_GESTIN ADMINISTRATIVA' is clicked on
+
+2019-12-17 16:00:12 - [TEST_STEP][PASSED] - click(findTestObject("EjecutivoResponsable2/button_Completar tarea de aprobacin_Toggle35")): Object: 'Object Repository/EjecutivoResponsable2/button_Completar tarea de aprobacin_Toggle35' is clicked on
+
+2019-12-17 16:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/EjecutivoResponsable2/button_Completar tarea de aprobacin_Toggle35' is clicked on
+
+2019-12-17 16:00:13 - [TEST_STEP][PASSED] - click(findTestObject("EjecutivoResponsable2/label_Aprobar")): Object: 'Object Repository/EjecutivoResponsable2/label_Aprobar' is clicked on
+
+2019-12-17 16:00:14 - [MESSAGE][PASSED] - Object: 'Object Repository/EjecutivoResponsable2/label_Aprobar' is clicked on
+
+2019-12-17 16:00:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-12-17 16:00:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-12-17 16:00:17 - [TEST_STEP][PASSED] - click(findTestObject("EjecutivoResponsable2/div_Guardar")): Object: 'Object Repository/EjecutivoResponsable2/div_Guardar' is clicked on
+
+2019-12-17 16:00:17 - [MESSAGE][PASSED] - Object: 'Object Repository/EjecutivoResponsable2/div_Guardar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GestionAdministrativa/FinalizarCiclo" time="140.248" classname="Test Cases/GestionAdministrativa/FinalizarCiclo" status="PASSED">
+         <system-out><![CDATA[2019-12-17 16:00:17 - [TEST_CASE][PASSED] - Test Cases/GestionAdministrativa/FinalizarCiclo: Test Cases/GestionAdministrativa/FinalizarCiclo
+
+2019-12-17 16:00:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Representante/InicioSesion_AccesoCorreo"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Representante/InicioSesion_AccesoCorreo' successfully
+
+2019-12-17 16:00:18 - [TEST_CASE][PASSED] - Test Cases/Representante/InicioSesion_AccesoCorreo: Test Cases/Representante/InicioSesion_AccesoCorreo
+
+2019-12-17 16:00:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-17 16:00:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-17 16:00:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-17 16:00:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-17 16:00:24 - [TEST_STEP][PASSED] - navigateToUrl("https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw"): Navigate to 'https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw' successfully
+
+2019-12-17 16:00:25 - [MESSAGE][PASSED] - Navigate to 'https://login.microsoftonline.com/common/oauth2/authorize?client_id=00000002-0000-0ff1-ce00-000000000000&redirect_uri=https%3a%2f%2foutlook.office365.com%2fowa%2f&resource=00000002-0000-0ff1-ce00-000000000000&response_mode=form_post&response_type=code+id_token&scope=openid&msafed=0&client-request-id=90e6bfa9-e6ec-46ab-82c3-1c848ab25309&protectedtoken=true&nonce=637105585405285449.f41578f0-f800-4006-b334-7ecc8f885085&state=DcsxEoAwCAVRouNxMD8GAh5HM9Jaen0p9nVbiGjNlqwgIRvdGlRdBXqkcu4hTc0DHA6wAIPv3oXtmdPDXeFa8t3q-131Bw' successfully
+
+2019-12-17 16:00:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Representante/input_to continue to Outlook_loginfmt"), "Lgarciaa@intergrupo.com"): Text 'Lgarciaa@intergrupo.com' is set on object 'Object Repository/Representante/input_to continue to Outlook_loginfmt'
+
+2019-12-17 16:00:27 - [MESSAGE][PASSED] - Text 'Lgarciaa@intergrupo.com' is set on object 'Object Repository/Representante/input_to continue to Outlook_loginfmt'
+
+2019-12-17 16:00:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_to continue to Outlook_idSIButton9")): Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 16:00:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 16:00:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Representante/input_Enter password_passwd"), "ZOlv4XWAQZkh7wlYSNhOVA=="): Text ****** has been set on object 'Object Repository/Representante/input_Enter password_passwd'
+
+2019-12-17 16:00:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Representante/input_Enter password_passwd'
+
+2019-12-17 16:00:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_to continue to Outlook_idSIButton9")): Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 16:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_to continue to Outlook_idSIButton9' is clicked on
+
+2019-12-17 16:00:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back")): Object: 'Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back' is clicked on
+
+2019-12-17 16:00:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Representante/input_concat(Don  t show this again)_idBtn_Back' is clicked on
+
+2019-12-17 16:00:34 - [TEST_STEP][PASSED] - maximizeWindow(STOP_ON_FAILURE): Current window maximized
+
+2019-12-17 16:00:38 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-17 16:00:38 - [MESSAGE][INFO] - =================== Smart XPath Report =======================
+
+2019-12-17 16:00:38 - [MESSAGE][INFO] - Refer to the link below to preview and approve auto healing on broken test objects.
+
+2019-12-17 16:00:38 - [MESSAGE][INFO] - https://docs.katalon.com/katalon-studio/docs/auto-healing-smart-xpath.html
+
+2019-12-17 16:00:38 - [MESSAGE][INFO] - ===============================================================
+
+2019-12-17 16:00:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Representante/InicioSesion_AccesoCorreo' successfully
+
+2019-12-17 16:00:38 - [TEST_STEP][PASSED] - click(findTestObject("Gestion Administrativa/span_20191061 PRUEBA - APROBACIN GESTIN ADMINISTRATIVA")): Object: 'Object Repository/Gestion Administrativa/span_20191061 PRUEBA - APROBACIN GESTIN ADMINISTRATIVA' is clicked on
+
+2019-12-17 16:01:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='AQAAAMjoylsBAAAAyVgUIQAAAAA=']/div/div/div/div[2]/div[2]/div/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 16:01:26 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-17 16:01:26 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//div[@id='AQAAAMjoylsBAAAAyVgUIQAAAAA=']/div/div/div/div[2]/div[2]/div/span'.
+
+2019-12-17 16:01:26 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='cafpruebassp@intergrupo.com'])[1]/following::span[5]'.
+
+2019-12-17 16:01:27 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Gestion Administrativa/span_20191061 PRUEBA - APROBACIN GESTIN ADMINISTRATIVA_neighbor_2.png
+
+2019-12-17 16:01:27 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='C'])[1]/following::span[6]'.
+
+2019-12-17 16:01:28 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Gestion Administrativa/span_20191061 PRUEBA - APROBACIN GESTIN ADMINISTRATIVA_neighbor_3.png
+
+2019-12-17 16:01:28 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='C'])[2]/preceding::span[3]'.
+
+2019-12-17 16:01:29 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Gestion Administrativa/span_20191061 PRUEBA - APROBACIN GESTIN ADMINISTRATIVA_neighbor_4.png
+
+2019-12-17 16:01:29 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='cafpruebassp@intergrupo.com'])[2]/preceding::span[4]'.
+
+2019-12-17 16:01:29 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Gestion Administrativa/span_20191061 PRUEBA - APROBACIN GESTIN ADMINISTRATIVA_neighbor_5.png
+
+2019-12-17 16:01:30 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//*/text()[normalize-space(.)='[20191061] PRUEBA - APROBACIÓN GESTIÓN ADMINISTRATIVA']/parent::*'.
+
+2019-12-17 16:01:30 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Gestion Administrativa/span_20191061 PRUEBA - APROBACIN GESTIN ADMINISTRATIVA_neighbor_6.png
+
+2019-12-17 16:01:31 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div/div[2]/div/div/div/div/div/div[2]/div/div/div/div[2]/div[2]/div/span'.
+
+2019-12-17 16:01:31 - [MESSAGE][INFO] - [SMART_XPATH] Screenshot: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/Object Repository/Gestion Administrativa/span_20191061 PRUEBA - APROBACIN GESTIN ADMINISTRATIVA_position.png
+
+2019-12-17 16:01:31 - [MESSAGE][ERROR] - [SMART_XPATH] F:\Proyectos\CAF_FlujoCorrespondencia\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2019-12-17 16:01:31 - [MESSAGE][ERROR] - [SMART_XPATH] F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-17 16:01:31 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '(.//*[normalize-space(text()) and normalize-space(.)='cafpruebassp@intergrupo.com'])[1]/following::span[5]'.
+
+2019-12-17 16:01:31 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-17 16:01:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Gestion Administrativa/span_20191061 PRUEBA - APROBACIN GESTIN ADMINISTRATIVA' is clicked on
+
+2019-12-17 16:01:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gestion Administrativa/a_CORRESPONDENCIA")): Object: 'Object Repository/Gestion Administrativa/a_CORRESPONDENCIA' is clicked on
+
+2019-12-17 16:01:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Gestion Administrativa/a_CORRESPONDENCIA' is clicked on
+
+2019-12-17 16:01:33 - [TEST_STEP][PASSED] - switchToWindowTitle("Control Correspondencia - 20191061"): Switched to window with title: 'Control Correspondencia - 20191061'
+
+2019-12-17 16:01:37 - [MESSAGE][PASSED] - Switched to window with title: 'Control Correspondencia - 20191061'
+
+2019-12-17 16:01:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gestion Administrativa/i_")): Object: 'Object Repository/Gestion Administrativa/i_' is clicked on
+
+2019-12-17 16:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Gestion Administrativa/i_' is clicked on
+
+2019-12-17 16:01:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Gestion Administrativa/input_Trmite Interno_tramiteInterno-input"), "ARCHIVO"): Text 'ARCHIVO' is set on object 'Object Repository/Gestion Administrativa/input_Trmite Interno_tramiteInterno-input'
+
+2019-12-17 16:01:39 - [MESSAGE][PASSED] - Text 'ARCHIVO' is set on object 'Object Repository/Gestion Administrativa/input_Trmite Interno_tramiteInterno-input'
+
+2019-12-17 16:01:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Gestion Administrativa/input_Archivado en_archivadoEn-input"), "BANCOS"): Text 'BANCOS' is set on object 'Object Repository/Gestion Administrativa/input_Archivado en_archivadoEn-input'
+
+2019-12-17 16:01:39 - [MESSAGE][PASSED] - Text 'BANCOS' is set on object 'Object Repository/Gestion Administrativa/input_Archivado en_archivadoEn-input'
+
+2019-12-17 16:01:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Gestion Administrativa/div_finalizar"), "Finalizar"): Text 'Finalizar' is set on object 'Object Repository/Gestion Administrativa/div_finalizar'
+
+2019-12-17 16:01:40 - [MESSAGE][PASSED] - Text 'Finalizar' is set on object 'Object Repository/Gestion Administrativa/div_finalizar'
+
+2019-12-17 16:01:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Gestion Administrativa/button_Completar tarea de aprobacin_Toggle31")): Object: 'Object Repository/Gestion Administrativa/button_Completar tarea de aprobacin_Toggle31' is clicked on
+
+2019-12-17 16:02:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='Toggle31']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-12-17 16:02:27 - [MESSAGE][INFO] - [SMART_XPATH] Auto-trying out other XPath values in the test object.
+
+2019-12-17 16:02:27 - [MESSAGE][INFO] - [SMART_XPATH] FAILED XPATH: '//button[@id='Toggle31']'.
+
+2019-12-17 16:02:27 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[@id='correspondencia-edicion-cewp-container']/div/div/div[31]/div[2]/div/button'.
+
+2019-12-17 16:02:28 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 16:02:28 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Completar tarea de aprobación'])[1]/following::button[1]'.
+
+2019-12-17 16:02:29 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 16:02:29 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='VER BITÁCORA'])[1]/following::button[1]'.
+
+2019-12-17 16:02:29 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 16:02:30 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::button[1]'.
+
+2019-12-17 16:02:30 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 16:02:30 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '(.//*[normalize-space(text()) and normalize-space(.)='Guardar'])[1]/preceding::button[1]'.
+
+2019-12-17 16:02:31 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 16:02:31 - [MESSAGE][INFO] - [SMART_XPATH] WORKING XPATH: '//div[2]/div/button'.
+
+2019-12-17 16:02:31 - [MESSAGE][ERROR] - [SMART_XPATH] Cannot save screenshot to: F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath, reason: (y + height) is outside of Raster
+
+2019-12-17 16:02:31 - [MESSAGE][ERROR] - [SMART_XPATH] F:\Proyectos\CAF_FlujoCorrespondencia\Reports\smart_xpath\waiting-for-approval.json (The system cannot find the file specified)
+
+2019-12-17 16:02:31 - [MESSAGE][ERROR] - [SMART_XPATH] F:/Proyectos/CAF_FlujoCorrespondencia/Reports/smart_xpath/waiting-for-approval.json does not exist or is provided by Smart XPath Plugin!
+
+2019-12-17 16:02:31 - [MESSAGE][INFO] - [SMART_XPATH] Selected Smart XPath: '//div[@id='correspondencia-edicion-cewp-container']/div/div/div[31]/div[2]/div/button'.
+
+2019-12-17 16:02:31 - [MESSAGE][INFO] - [SMART_XPATH] Continuing executing the test case!
+
+2019-12-17 16:02:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Gestion Administrativa/button_Completar tarea de aprobacin_Toggle31' is clicked on
+
+2019-12-17 16:02:32 - [TEST_STEP][PASSED] - click(findTestObject("Gestion Administrativa/label_Aprobar")): Object: 'Object Repository/Gestion Administrativa/label_Aprobar' is clicked on
+
+2019-12-17 16:02:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Gestion Administrativa/label_Aprobar' is clicked on
+
+2019-12-17 16:02:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-12-17 16:02:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-12-17 16:02:37 - [TEST_STEP][PASSED] - click(findTestObject("Gestion Administrativa/div_Guardar")): Object: 'Object Repository/Gestion Administrativa/div_Guardar' is clicked on
+
+2019-12-17 16:02:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Gestion Administrativa/div_Guardar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-17 15:57:14 - [TEST_SUITE][PASSED] - FlujoCompleto: Test Cases/GestionAdministrativa/FinalizarCiclo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

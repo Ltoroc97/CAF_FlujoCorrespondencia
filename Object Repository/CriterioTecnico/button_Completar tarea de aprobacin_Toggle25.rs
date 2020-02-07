@@ -9,11 +9,15 @@
          <key>XPATH</key>
          <value>//button[@id='Toggle25']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id = 'Toggle25' and @type = 'button']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>

@@ -3,17 +3,21 @@
    <description></description>
    <name>div_Guardar</name>
    <tag></tag>
-   <elementGuidId>51dfd37b-e6ce-48e7-80cc-6847319b0c9f</elementGuidId>
+   <elementGuidId>b975998a-da30-4ed1-a0df-ab37e197a13f</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Guardar' or . = 'Guardar')]</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='id__13']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,7 +31,7 @@
       <value>ms-Button-label label-139</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
