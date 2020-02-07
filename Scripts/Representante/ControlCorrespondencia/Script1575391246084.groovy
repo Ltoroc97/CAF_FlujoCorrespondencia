@@ -46,5 +46,7 @@ WebUI.click(findTestObject('Representante/ContinuarFlujo/div_Guardar'))
 
 not_run: WebUI.click(findTestObject('Representante/ContinuarFlujo/button_Guardar'))
 
+WebUI.delay(1)
+
 WebUI.closeBrowser()
 
